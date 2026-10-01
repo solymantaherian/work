@@ -1,0 +1,139 @@
+2026-09-30 20:46:48.974 [info] Claude code extension is now active?
+2026-09-30 20:46:48.974 [info] MCP Server running on port 53033 (localhost only)
+2026-09-30 20:47:05.010 [info] Creating new Claude terminal
+2026-09-30 20:47:05.923 [info] Terminal shell integration available
+2026-09-30 20:47:57.588 [info] New WS connection from: /
+2026-09-30 20:47:57.589 [info] MCP server connected to transport
+2026-09-30 20:47:57.589 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-30 20:47:57.589 [info] Registered diagnostic client: client_0
+2026-09-30 20:47:58.089 [info] Logging event: run_claude_command undefined
+2026-09-30 20:50:34.862 [info] Closing all diff tabs in the editor...
+2026-09-30 20:50:34.863 [info] Closed 0 diff tabs.
+2026-09-30 20:51:47.735 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 20:51:48.245 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 20:51:48.740 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 20:52:00.321 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 20:52:03.043 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 20:59:27.433 [info] Closing all diff tabs in the editor...
+2026-09-30 20:59:27.435 [info] Closed 0 diff tabs.
+2026-09-30 21:01:24.435 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 21:01:24.605 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 21:21:27.300 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 21:21:30.619 [info] Closing all diff tabs in the editor...
+2026-09-30 21:21:30.619 [info] Closed 0 diff tabs.
+2026-09-30 21:36:20.694 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 21:36:21.806 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 21:39:15.091 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 21:39:16.254 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 21:40:15.140 [info] Closing all diff tabs in the editor...
+2026-09-30 21:40:15.140 [info] Closed 0 diff tabs.
+2026-09-30 21:45:05.072 [info] Closing all diff tabs in the editor...
+2026-09-30 21:45:05.073 [info] Closed 0 diff tabs.
+2026-09-30 21:50:39.967 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 21:50:40.063 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 21:50:57.875 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 21:50:59.930 [info] Closing all diff tabs in the editor...
+2026-09-30 21:50:59.930 [info] Closed 0 diff tabs.
+2026-09-30 21:53:34.362 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 21:53:52.474 [info] Closing all diff tabs in the editor...
+2026-09-30 21:53:52.474 [info] Closed 0 diff tabs.
+2026-09-30 21:54:29.857 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 21:54:30.934 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:01:17.394 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 22:01:17.544 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:05:11.813 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:05:18.027 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:05:18.246 [info] WS client disconnected
+2026-09-30 22:05:18.246 [info] [DiagnosticStreamManager] Unregistered client client_0. Total clients: 0
+2026-09-30 22:05:18.246 [info] [DiagnosticStreamManager] Stopped streaming diagnostics
+2026-09-30 22:05:18.246 [info] Unregistered diagnostic client: client_0
+2026-09-30 22:05:20.281 [info] Creating new Claude terminal
+2026-09-30 22:05:20.999 [info] Terminal shell integration available
+2026-09-30 22:05:28.353 [info] New WS connection from: /
+2026-09-30 22:05:28.353 [info] MCP server connected to transport
+2026-09-30 22:05:28.353 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-30 22:05:28.353 [info] Registered diagnostic client: client_1
+2026-09-30 22:05:28.854 [info] Logging event: run_claude_command undefined
+2026-09-30 22:05:32.759 [info] Closing all diff tabs in the editor...
+2026-09-30 22:05:32.759 [info] Closed 0 diff tabs.
+2026-09-30 22:05:45.431 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:06:34.001 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:06:52.300 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:06:53.416 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:07:15.899 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 22:07:15.998 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:07:36.422 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:11:34.517 [info] Closing all diff tabs in the editor...
+2026-09-30 22:11:34.518 [info] Closed 0 diff tabs.
+2026-09-30 22:11:40.544 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:14:25.397 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:15:14.734 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:15:18.139 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:15:20.129 [info] Closing all diff tabs in the editor...
+2026-09-30 22:15:20.129 [info] Closed 0 diff tabs.
+2026-09-30 22:54:27.754 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:54:34.126 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:54:34.316 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:54:40.348 [info] WS client disconnected
+2026-09-30 22:54:40.348 [info] [DiagnosticStreamManager] Unregistered client client_1. Total clients: 0
+2026-09-30 22:54:40.348 [info] [DiagnosticStreamManager] Stopped streaming diagnostics
+2026-09-30 22:54:40.348 [info] Unregistered diagnostic client: client_1
+2026-09-30 22:54:41.695 [info] Creating new Claude terminal
+2026-09-30 22:54:42.363 [info] Terminal shell integration available
+2026-09-30 22:54:46.344 [info] New WS connection from: /
+2026-09-30 22:54:46.344 [info] MCP server connected to transport
+2026-09-30 22:54:46.344 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-30 22:54:46.344 [info] Registered diagnostic client: client_2
+2026-09-30 22:54:46.844 [info] Logging event: run_claude_command undefined
+2026-09-30 22:55:13.118 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 22:55:13.328 [info] WS client disconnected
+2026-09-30 22:55:13.328 [info] [DiagnosticStreamManager] Unregistered client client_2. Total clients: 0
+2026-09-30 22:55:13.328 [info] [DiagnosticStreamManager] Stopped streaming diagnostics
+2026-09-30 22:55:13.328 [info] Unregistered diagnostic client: client_2
+2026-09-30 22:56:00.359 [info] New WS connection from: /
+2026-09-30 22:56:00.359 [info] MCP server connected to transport
+2026-09-30 22:56:00.359 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-30 22:56:00.360 [info] Registered diagnostic client: client_3
+2026-09-30 22:56:16.265 [info] Closing all diff tabs in the editor...
+2026-09-30 22:56:16.266 [info] Closed 0 diff tabs.
+2026-09-30 22:57:47.848 [info] Closing all diff tabs in the editor...
+2026-09-30 22:57:47.850 [info] Closed 0 diff tabs.
+2026-09-30 23:01:09.405 [info] Closing all diff tabs in the editor...
+2026-09-30 23:01:09.406 [info] Closed 0 diff tabs.
+2026-09-30 23:04:01.408 [info] Closing all diff tabs in the editor...
+2026-09-30 23:04:01.410 [info] Closed 0 diff tabs.
+2026-09-30 23:07:14.002 [info] Closing all diff tabs in the editor...
+2026-09-30 23:07:14.003 [info] Closed 0 diff tabs.
+2026-09-30 23:17:12.009 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 23:17:12.174 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:17:27.223 [info] WS client disconnected
+2026-09-30 23:17:27.223 [info] [DiagnosticStreamManager] Unregistered client client_3. Total clients: 0
+2026-09-30 23:17:27.223 [info] [DiagnosticStreamManager] Stopped streaming diagnostics
+2026-09-30 23:17:27.223 [info] Unregistered diagnostic client: client_3
+2026-09-30 23:17:51.758 [info] New WS connection from: /
+2026-09-30 23:17:51.758 [info] MCP server connected to transport
+2026-09-30 23:17:51.758 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-30 23:17:51.758 [info] Registered diagnostic client: client_4
+2026-09-30 23:18:20.479 [info] Closing all diff tabs in the editor...
+2026-09-30 23:18:20.479 [info] Closed 0 diff tabs.
+2026-09-30 23:19:27.836 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 23:19:28.000 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:19:28.348 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:19:33.373 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:19:43.382 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 23:19:43.477 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:19:43.809 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:19:48.548 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:20:07.364 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:20:08.615 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:20:08.772 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:24:05.875 [info] Closing all diff tabs in the editor...
+2026-09-30 23:24:05.876 [info] Closed 0 diff tabs.
+2026-09-30 23:24:09.321 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 23:24:09.435 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:24:09.718 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:24:14.923 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:30:14.112 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 23:30:14.315 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:30:14.429 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 23:30:19.051 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files

@@ -1,0 +1,73 @@
+<task>
+Generate ARCHITECTURE.md explaining system design for developers
+</task>
+
+<target_audience>
+Software developers who need to:
+- Understand how the system works
+- Modify existing functionality
+- Add new features (new report types, data sources)
+- Debug issues
+- Contribute to the project
+</target_audience>
+
+<system_components>
+<modules>
+- transaction_loader.py: CSV loading and validation (TransactionLoader ABC, CSVTransactionLoader implementation)
+- report_modes.py: Report strategies (ReportMode ABC, SummaryByCategory, MonthlyTotalReport)
+- report_engine.py: Orchestration (ReportEngine coordinates loader and mode)
+- cli_interface.py: Terminal display formatting
+- main.py: CLI entry point with argument parsing
+</modules>
+
+<design_patterns>
+- Strategy Pattern: For pluggable report types
+- Dependency Injection: ReportEngine depends on abstractions
+- Abstract Base Classes: Define clear contracts
+</design_patterns>
+
+</system_components>
+
+<content_requirements>
+## Overview
+- System purpose and goals
+- Key design principles
+
+## Architecture Diagram
+- ASCII art or simple text diagram showing components
+- Data flow visualization
+- Dependency relationships
+
+## Design Patterns
+- Which patterns used and where
+- Why each pattern was chosen
+- Benefits for this application
+
+## Module Descriptions
+For each module:
+- Purpose and responsibility
+- Public interface (key classes/methods)
+- Dependencies
+- Extension points
+
+## Adding New Features
+### How to add a new report type:
+- Step-by-step instructions
+- Code example showing new strategy implementation
+- Where to register it
+
+### How to add a new data source:
+- Implement TransactionLoader
+- Integration points
+
+## Design Decisions
+- Why Strategy pattern for reports
+- Why ABC for interfaces
+- Why CSV not database
+- Trade-offs considered
+
+## Testing Strategy
+- How modules are tested
+- Mocking strategy
+- Where to find tests
+</content_requirements>

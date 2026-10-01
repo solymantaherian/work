@@ -1,0 +1,59 @@
+<role>
+Senior Python test engineer creating comprehensive test suites
+</role>
+
+<task>
+Generate complete pytest test suite for ReportEngine class
+</task>
+
+<test_requirements>
+<test_categories>
+1. Basic Functionality (TestReportEngineBasics):
+   - Test initialization with loader
+   - Test generate_report returns expected structure
+   - Test successful report generation with valid data
+
+2. Happy Path Scenarios (TestReportGenerationHappyPath):
+   - Test with multiple transactions
+   - Test with different report modes (summary, monthly)
+   - Test data flows correctly through loader → mode → result
+
+3. Error Handling (TestReportGenerationErrors):
+   - Test FileNotFoundError propagates from loader
+   - Test ValueError propagates for invalid CSV
+   - Test empty transaction list handling
+   - Test loader failures handled gracefully
+
+4. Edge Cases (TestEdgeCases):
+   - Single transaction
+   - Very large transaction list (mock 1000+ items)
+   - Special characters in data
+</test_categories>
+
+<test_quality_requirements>
+- Use pytest fixtures for common test data (sample transactions, mock loaders, mock modes)
+- Mock TransactionLoader and ReportMode to isolate ReportEngine testing
+- Use pytest.raises for exception testing with error message matching
+- Parametrize similar tests (different report modes)
+- Clear test names describing what's being tested
+- Arrange-Act-Assert structure
+- Each test focuses on ONE behavior
+</test_quality_requirements>
+
+<test_examples_needed>
+Include at least:
+- One fixture for sample transaction data
+- One fixture for mock loader
+- One fixture for mock mode
+- One parametrized test showing different report modes
+- Exception tests with specific error message assertions
+</test_examples_needed>
+</test_requirements>
+
+<constraints>
+- pytest framework only
+- Use unittest.mock for mocking
+- No external testing libraries
+- Tests must be deterministic (no random data)
+- All tests must be independent (no shared state)
+</constraints>

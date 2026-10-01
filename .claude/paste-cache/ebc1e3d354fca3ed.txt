@@ -1,0 +1,62 @@
+<role>
+Senior Python developer implementing planned architecture
+</role>
+
+<task>
+Implement CSVTransactionLoader class following the interface specification
+</task>
+
+<interface_specification>
+from abc import ABC, abstractmethod
+from typing import List, Dict, Any
+
+class TransactionLoader(ABC):
+    @abstractmethod
+    def load(self, filepath: str) -> List[Dict[str, Any]]:
+        """Load transactions from file.
+
+        Returns:
+            List of dicts with keys: date, amount, category, description
+
+        Raises:
+            FileNotFoundError: If file doesn't exist
+            ValueError: If file format is invalid
+        """
+        pass
+</interface_specification>
+
+<requirements>
+<functionality>
+- Implement CSVTransactionLoader inheriting from TransactionLoader
+- CSV format: date,amount,category,description (header row required)
+- Validate all four fields are present for each row
+- Convert amount to float and validate it's positive
+- Strip whitespace from all fields
+- Provide row-specific error messages for validation failures
+</functionality>
+
+<error_handling>
+- FileNotFoundError with informative message including filepath
+- ValueError for missing columns with specific column names
+- ValueError for row-level issues with row number in message
+- ValueError for empty/missing required fields
+- ValueError for invalid amount (not numeric or negative)
+- NO bare except clauses
+</error_handling>
+
+<code_quality>
+- Comprehensive module and class docstrings
+- Method docstrings with Args, Returns, Raises sections
+- Full type hints on all signatures
+- Use class constant for REQUIRED_COLUMNS
+- Extract validation logic to private helper method
+- Include usage example in module docstring
+</code_quality>
+</requirements>
+
+<constraints>
+- Python standard library only (csv module)
+- Module should be under 150 lines
+- Follow PEP 8 style guide
+- No external dependencies
+</constraints>

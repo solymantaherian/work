@@ -1,0 +1,1340 @@
+2026-09-30 20:52:02.533 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 
+2026-09-30 20:52:02.597 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 0:0-173:27
+2026-09-30 20:52:03.314 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "4": _pickle.UnpicklingError: unpickling stack underflow
+NoneType: None
+
+2026-09-30 20:52:03.316 [info] [Error - 8:52:03 PM] Request textDocument/semanticTokens/full failed.
+2026-09-30 20:52:03.318 [info]   Message: _pickle.UnpicklingError: unpickling stack underflow
+  Code: -32603 
+[object Object]
+2026-09-30 20:52:06.033 [info] [Debug - 8:52:06 PM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 20:52:07.190 [info] [Debug - 8:52:07 PM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 20:52:08.563 [info] [Debug - 8:52:08 PM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 20:52:10.241 [info] [Debug - 8:52:10 PM] no definitions found for name "lower" of type 'statement' (106:50)
+2026-09-30 20:52:10.242 [info] [Debug - 8:52:10 PM] no definitions found for name "lower" of type 'statement' (107:59)
+2026-09-30 20:52:10.300 [info] [Debug - 8:52:10 PM] no definitions found for name "module" of type 'statement' (143:24)
+2026-09-30 20:52:10.302 [info] [Debug - 8:52:10 PM] no definitions found for name "name" of type 'statement' (143:57)
+2026-09-30 20:52:10.305 [info] [Debug - 8:52:10 PM] no definitions found for name "names" of type 'statement' (143:94)
+2026-09-30 20:52:10.308 [info] [Debug - 8:52:10 PM] no definitions found for name "module" of type 'statement' (145:24)
+2026-09-30 20:52:10.309 [info] [Debug - 8:52:10 PM] no definitions found for name "name" of type 'statement' (145:54)
+2026-09-30 20:52:10.311 [info] [Debug - 8:52:10 PM] no definitions found for name "names" of type 'statement' (145:106)
+2026-09-30 20:52:10.313 [info] [Debug - 8:52:10 PM] multiple definitions found for name "has_protocol" of type 'statement' (148:15):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = False'>
+2026-09-30 20:52:10.315 [info] [Debug - 8:52:10 PM] multiple definitions found for name "has_abc" of type 'statement' (148:31):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = False'>
+2026-09-30 20:52:10.315 [info] [Debug - 8:52:10 PM] no definitions found for name "node" of type 'statement' (162:78)
+2026-09-30 20:52:10.316 [info] [Debug - 8:52:10 PM] no definitions found for name "node" of type 'statement' (171:78)
+2026-09-30 20:52:32.652 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 0:0-186:0
+2026-09-30 20:52:32.723 [info] [Debug - 8:52:32 PM] no definitions found for name "fixture" of type 'statement' (57:12)
+2026-09-30 20:52:32.725 [info] [Debug - 8:52:32 PM] no definitions found for name "skip" of type 'statement' (62:19)
+2026-09-30 20:52:34.333 [info] [Debug - 8:52:34 PM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 20:52:35.328 [info] [Debug - 8:52:35 PM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 20:52:36.388 [info] [Debug - 8:52:36 PM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 20:52:37.926 [info] [Debug - 8:52:37 PM] no definitions found for name "lower" of type 'statement' (106:50)
+2026-09-30 20:52:37.927 [info] [Debug - 8:52:37 PM] no definitions found for name "lower" of type 'statement' (107:59)
+2026-09-30 20:52:37.931 [info] [Debug - 8:52:37 PM] no definitions found for name "fixture" of type 'statement' (122:12)
+2026-09-30 20:52:37.931 [info] [Debug - 8:52:37 PM] no definitions found for name "skip" of type 'statement' (127:19)
+2026-09-30 20:52:37.935 [info] [Debug - 8:52:37 PM] no definitions found for name "fail" of type 'statement' (134:19)
+2026-09-30 20:52:37.942 [info] [Debug - 8:52:37 PM] no definitions found for name "module" of type 'statement' (143:24)
+2026-09-30 20:52:37.944 [info] [Debug - 8:52:37 PM] no definitions found for name "name" of type 'statement' (143:57)
+2026-09-30 20:52:37.945 [info] [Debug - 8:52:37 PM] no definitions found for name "names" of type 'statement' (143:94)
+2026-09-30 20:52:37.947 [info] [Debug - 8:52:37 PM] no definitions found for name "module" of type 'statement' (145:24)
+2026-09-30 20:52:37.951 [info] [Debug - 8:52:37 PM] no definitions found for name "name" of type 'statement' (145:54)
+2026-09-30 20:52:37.951 [info] [Debug - 8:52:37 PM] no definitions found for name "names" of type 'statement' (145:106)
+2026-09-30 20:52:37.953 [info] [Debug - 8:52:37 PM] multiple definitions found for name "has_protocol" of type 'statement' (148:15):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = False'>
+2026-09-30 20:52:37.955 [info] [Debug - 8:52:37 PM] multiple definitions found for name "has_abc" of type 'statement' (148:31):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = False'>
+2026-09-30 20:52:37.955 [info] [Debug - 8:52:37 PM] no definitions found for name "node" of type 'statement' (162:78)
+2026-09-30 20:52:37.956 [info] [Debug - 8:52:37 PM] no definitions found for name "node" of type 'statement' (171:78)
+2026-09-30 20:52:37.967 [info] [Debug - 8:52:37 PM] no definitions found for name "name" of type 'statement' (177:54)
+2026-09-30 20:52:51.246 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 15:0-205:130
+2026-09-30 20:52:51.317 [info] [Debug - 8:52:51 PM] no definitions found for name "fixture" of type 'statement' (57:12)
+2026-09-30 20:52:51.319 [info] [Debug - 8:52:51 PM] no definitions found for name "skip" of type 'statement' (62:19)
+2026-09-30 20:52:52.876 [info] [Debug - 8:52:52 PM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 20:52:53.860 [info] [Debug - 8:52:53 PM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 20:52:54.861 [info] [Debug - 8:52:54 PM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 20:52:55.146 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 62:0-252:82
+2026-09-30 20:52:56.767 [info] [Debug - 8:52:56 PM] no definitions found for name "lower" of type 'statement' (106:50)
+2026-09-30 20:52:56.768 [info] [Debug - 8:52:56 PM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 20:52:56.774 [info] [Debug - 8:52:56 PM] no definitions found for name "lower" of type 'statement' (107:59)
+2026-09-30 20:52:56.774 [info] [Debug - 8:52:56 PM] no definitions found for name "fixture" of type 'statement' (122:12)
+2026-09-30 20:52:56.774 [info] [Debug - 8:52:56 PM] no definitions found for name "skip" of type 'statement' (127:19)
+2026-09-30 20:52:56.778 [info] [Debug - 8:52:56 PM] no definitions found for name "fail" of type 'statement' (134:19)
+2026-09-30 20:52:56.785 [info] [Debug - 8:52:56 PM] no definitions found for name "module" of type 'statement' (143:24)
+2026-09-30 20:52:56.787 [info] [Debug - 8:52:56 PM] no definitions found for name "name" of type 'statement' (143:57)
+2026-09-30 20:52:56.789 [info] [Debug - 8:52:56 PM] no definitions found for name "names" of type 'statement' (143:94)
+2026-09-30 20:52:56.791 [info] [Debug - 8:52:56 PM] no definitions found for name "module" of type 'statement' (145:24)
+2026-09-30 20:52:56.793 [info] [Debug - 8:52:56 PM] no definitions found for name "name" of type 'statement' (145:54)
+2026-09-30 20:52:56.795 [info] [Debug - 8:52:56 PM] no definitions found for name "names" of type 'statement' (145:106)
+2026-09-30 20:52:56.796 [info] [Debug - 8:52:56 PM] multiple definitions found for name "has_protocol" of type 'statement' (148:15):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = False'>
+2026-09-30 20:52:56.797 [info] [Debug - 8:52:56 PM] multiple definitions found for name "has_abc" of type 'statement' (148:31):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = False'>
+2026-09-30 20:52:56.800 [info] [Debug - 8:52:56 PM] no definitions found for name "node" of type 'statement' (162:78)
+2026-09-30 20:52:56.800 [info] [Debug - 8:52:56 PM] no definitions found for name "node" of type 'statement' (171:78)
+2026-09-30 20:52:56.811 [info] [Debug - 8:52:56 PM] no definitions found for name "name" of type 'statement' (177:54)
+2026-09-30 20:52:56.813 [info] [Debug - 8:52:56 PM] no definitions found for name "fixture" of type 'statement' (192:12)
+2026-09-30 20:52:56.816 [info] [Debug - 8:52:56 PM] no definitions found for name "skip" of type 'statement' (197:19)
+2026-09-30 20:52:57.847 [info] [Debug - 8:52:57 PM] no definitions found for name "lower" of type 'statement' (203:50)
+2026-09-30 20:52:57.848 [info] [Debug - 8:52:57 PM] no definitions found for name "lower" of type 'statement' (206:50)
+2026-09-30 20:52:57.852 [info] [Debug - 8:52:57 PM] no definitions found for name "lower" of type 'statement' (206:123)
+2026-09-30 20:52:57.852 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 81:0-271:83
+2026-09-30 20:52:57.864 [info] [Debug - 8:52:57 PM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 20:52:59.086 [info] [Debug - 8:52:59 PM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 20:52:59.090 [info] [Debug - 8:52:59 PM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 20:53:00.656 [info] [Debug - 8:53:00 PM] no definitions found for name "lower" of type 'statement' (106:50)
+2026-09-30 20:53:00.657 [info] [Debug - 8:53:00 PM] no definitions found for name "lower" of type 'statement' (106:50)
+2026-09-30 20:53:00.660 [info] [Debug - 8:53:00 PM] no definitions found for name "lower" of type 'statement' (107:59)
+2026-09-30 20:53:00.660 [info] [Debug - 8:53:00 PM] no definitions found for name "lower" of type 'statement' (107:59)
+2026-09-30 20:53:00.664 [info] [Debug - 8:53:00 PM] no definitions found for name "fixture" of type 'statement' (122:12)
+2026-09-30 20:53:00.665 [info] [Debug - 8:53:00 PM] no definitions found for name "fixture" of type 'statement' (122:12)
+2026-09-30 20:53:00.667 [info] [Debug - 8:53:00 PM] no definitions found for name "skip" of type 'statement' (127:19)
+2026-09-30 20:53:00.674 [info] [Debug - 8:53:00 PM] no definitions found for name "fail" of type 'statement' (134:19)
+2026-09-30 20:53:00.683 [info] [Debug - 8:53:00 PM] no definitions found for name "module" of type 'statement' (143:24)
+2026-09-30 20:53:00.685 [info] [Debug - 8:53:00 PM] no definitions found for name "name" of type 'statement' (143:57)
+2026-09-30 20:53:00.687 [info] [Debug - 8:53:00 PM] no definitions found for name "names" of type 'statement' (143:94)
+2026-09-30 20:53:00.689 [info] [Debug - 8:53:00 PM] no definitions found for name "module" of type 'statement' (145:24)
+2026-09-30 20:53:00.692 [info] [Debug - 8:53:00 PM] no definitions found for name "name" of type 'statement' (145:54)
+2026-09-30 20:53:00.693 [info] [Debug - 8:53:00 PM] no definitions found for name "names" of type 'statement' (145:106)
+2026-09-30 20:53:00.696 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 96:0-286:64
+2026-09-30 20:53:00.710 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "9": _pickle.UnpicklingError: unpickling stack underflow
+NoneType: None
+
+2026-09-30 20:53:00.711 [info] [Error - 8:53:00 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 20:53:00.714 [info]   Message: _pickle.UnpicklingError: unpickling stack underflow
+  Code: -32603 
+[object Object]
+2026-09-30 20:53:49.153 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 102:0-292:47
+2026-09-30 20:53:49.154 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "10": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 20:53:49.155 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 109:0-293:0
+2026-09-30 20:53:49.165 [info] [Error - 8:53:49 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 20:53:49.165 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 20:53:49.173 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 111:0-293:0
+2026-09-30 20:53:49.193 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 117:0-293:0
+2026-09-30 20:53:49.207 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 17 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py'), position=196:19, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/__init__.py", line 372, in help
+    definitions = self.goto(line, column, follow_imports=True)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/__init__.py", line 300, in goto
+    names = list(name.goto())
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 205, in goto
+    values = infer_call_of_leaf(context, name, cut_own_trailer=True)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/helpers.py", line 104, in infer_call_of_leaf
+    values = context.infer_node(base)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 305, in infer_atom
+    return context.py__getattribute__(atom, position=position)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in py__getattribute__
+    values = ValueSet.from_sets(name.infer() for name in names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in <genexpr>
+    values = ValueSet.from_sets(name.infer() for name in names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 771, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 296, in run
+    return self._send(inference_state_id, function, args, kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 20:53:49.207 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "11": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 20:53:49.211 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "13": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+ERROR:pygls.protocol.json_rpc:Exception occurred for message "14": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+ERROR:pygls.protocol.json_rpc:Exception occurred for message "15": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+ERROR:pygls.protocol.json_rpc:Exception occurred for message "16": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 20:53:49.211 [info] [Error - 8:53:49 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 20:53:49.211 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 20:53:49.211 [info] [Error - 8:53:49 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 20:53:49.214 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 20:53:49.215 [info] [Error - 8:53:49 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 20:53:49.215 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 20:53:49.215 [info] [Error - 8:53:49 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 20:53:49.215 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 20:53:49.215 [info] [Error - 8:53:49 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 20:53:49.219 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 20:53:49.220 [info] [Error - 8:53:49 PM] Request textDocument/hover failed.
+2026-09-30 20:53:49.220 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:00:37.010 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 21 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py'), position=211:50, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/__init__.py", line 372, in help
+    definitions = self.goto(line, column, follow_imports=True)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/__init__.py", line 300, in goto
+    names = list(name.goto())
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 205, in goto
+    values = infer_call_of_leaf(context, name, cut_own_trailer=True)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/helpers.py", line 104, in infer_call_of_leaf
+    values = context.infer_node(base)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 305, in infer_atom
+    return context.py__getattribute__(atom, position=position)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in py__getattribute__
+    values = ValueSet.from_sets(name.infer() for name in names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in <genexpr>
+    values = ValueSet.from_sets(name.infer() for name in names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/pytest.py", line 63, in wrapper
+    fixtures = _goto_pytest_fixture(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/pytest.py", line 110, in _goto_pytest_fixture
+    for module_context in _iter_pytest_modules(module_context, skip_own_module=skip_own_module):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/pytest.py", line 201, in _iter_pytest_modules
+    for module_value in module_context.inference_state.import_module(names):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/__init__.py", line 112, in import_module
+    return imports.import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 296, in run
+    return self._send(inference_state_id, function, args, kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 21:00:37.012 [info] [Error - 9:00:37 PM] Request textDocument/hover failed.
+2026-09-30 21:00:37.012 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:36:20.822 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 23 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 546, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 225, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 204, in _document_symbol_range
+    end = name.get_definition_end_position()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type
+    for value in self._name.infer():
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 771, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 296, in run
+    return self._send(inference_state_id, function, args, kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 21:36:20.826 [info] [Error - 9:36:20 PM] Request textDocument/documentSymbol failed.
+2026-09-30 21:36:20.826 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:36:20.829 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 
+2026-09-30 21:36:20.833 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "24": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:36:20.834 [info] [Error - 9:36:20 PM] Request textDocument/semanticTokens/full failed.
+2026-09-30 21:36:20.834 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:36:21.029 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 25 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 546, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 225, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 204, in _document_symbol_range
+    end = name.get_definition_end_position()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type
+    for value in self._name.infer():
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 771, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 296, in run
+    return self._send(inference_state_id, function, args, kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 21:36:21.029 [info] [Error - 9:36:21 PM] Request textDocument/documentSymbol failed.
+2026-09-30 21:36:21.034 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:36:21.227 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-126:36
+2026-09-30 21:36:21.237 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "26": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:36:21.237 [info] [Error - 9:36:21 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:36:21.241 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:36:57.655 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-128:51
+2026-09-30 21:36:57.664 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "27": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:36:57.665 [info] [Error - 9:36:57 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:36:57.670 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:02.039 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-130:12
+2026-09-30 21:37:02.055 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "28": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:02.055 [info] [Error - 9:37:02 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:02.060 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:03.893 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-129:11
+2026-09-30 21:37:03.903 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "29": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:03.903 [info] [Error - 9:37:03 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:03.907 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:07.376 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-138:40
+2026-09-30 21:37:07.385 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "30": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:07.385 [info] [Error - 9:37:07 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:07.392 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:08.526 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-154:0
+2026-09-30 21:37:08.535 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "31": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:08.536 [info] [Error - 9:37:08 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:08.539 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:09.645 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-155:11
+2026-09-30 21:37:09.654 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "32": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:09.655 [info] [Error - 9:37:09 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:09.658 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:10.625 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-175:0
+2026-09-30 21:37:10.635 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "33": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:10.636 [info] [Error - 9:37:10 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:10.640 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:10.878 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-176:15
+2026-09-30 21:37:10.888 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "34": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:10.888 [info] [Error - 9:37:10 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:10.891 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:11.779 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-178:78
+2026-09-30 21:37:11.788 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "35": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:11.788 [info] [Error - 9:37:11 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:11.792 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:12.220 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-178:78
+2026-09-30 21:37:12.229 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "36": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:12.229 [info] [Error - 9:37:12 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:12.233 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:13.679 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 30:0-219:0
+2026-09-30 21:37:13.688 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "37": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:13.689 [info] [Error - 9:37:13 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:13.693 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:13.993 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 31:0-220:35
+2026-09-30 21:37:14.003 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "38": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:14.003 [info] [Error - 9:37:14 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:14.007 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:14.579 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 31:0-220:35
+2026-09-30 21:37:14.589 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "39": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:14.589 [info] [Error - 9:37:14 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:14.593 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:15.594 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 40:0-230:30
+2026-09-30 21:37:15.604 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "40": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:15.604 [info] [Error - 9:37:15 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:15.608 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:37:18.469 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/expense_tracker/data/transaction_loader.py 0:0-126:36
+2026-09-30 21:37:18.478 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "41": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:37:18.478 [info] [Error - 9:37:18 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:37:18.482 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:15.231 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 43 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 546, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 225, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 204, in _document_symbol_range
+    end = name.get_definition_end_position()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type
+    for value in self._name.infer():
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 771, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 296, in run
+    return self._send(inference_state_id, function, args, kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 21:39:15.234 [info] [Error - 9:39:15 PM] Request textDocument/documentSymbol failed.
+2026-09-30 21:39:15.234 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:15.237 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 
+2026-09-30 21:39:15.248 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "44": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:15.248 [info] [Error - 9:39:15 PM] Request textDocument/semanticTokens/full failed.
+2026-09-30 21:39:15.248 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:15.475 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 45 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 546, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 225, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 204, in _document_symbol_range
+    end = name.get_definition_end_position()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type
+    for value in self._name.infer():
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 771, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 296, in run
+    return self._send(inference_state_id, function, args, kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 21:39:15.475 [info] [Error - 9:39:15 PM] Request textDocument/documentSymbol failed.
+2026-09-30 21:39:15.483 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:15.679 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 0:0-126:17
+2026-09-30 21:39:15.686 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "46": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:15.686 [info] [Error - 9:39:15 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:15.694 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:25.206 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 0:0-128:25
+2026-09-30 21:39:25.213 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "47": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:25.217 [info] [Error - 9:39:25 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:25.217 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:25.473 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 0:0-129:83
+2026-09-30 21:39:25.480 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "48": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:25.484 [info] [Error - 9:39:25 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:25.484 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:27.062 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 0:0-129:83
+2026-09-30 21:39:27.069 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "49": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:27.069 [info] [Error - 9:39:27 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:27.069 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:27.443 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 0:0-129:83
+2026-09-30 21:39:27.450 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "50": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:27.451 [info] [Error - 9:39:27 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:27.451 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:32.941 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 0:0-130:39
+2026-09-30 21:39:32.953 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "51": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:32.954 [info] [Error - 9:39:32 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:32.960 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:37.144 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 0:0-141:81
+2026-09-30 21:39:37.150 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "52": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:37.151 [info] [Error - 9:39:37 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:37.151 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:37.732 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 0:0-148:0
+2026-09-30 21:39:37.739 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "53": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:37.740 [info] [Error - 9:39:37 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:37.740 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:38.075 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 0:0-148:0
+2026-09-30 21:39:38.082 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "54": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:38.082 [info] [Error - 9:39:38 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:38.082 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:39.612 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 4:0-148:0
+2026-09-30 21:39:39.618 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "55": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:39.622 [info] [Error - 9:39:39 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:39.622 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:40.645 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 14:0-148:0
+2026-09-30 21:39:40.652 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "56": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:40.655 [info] [Error - 9:39:40 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:40.655 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:39:41.165 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py 16:0-148:0
+2026-09-30 21:39:41.172 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "57": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:39:41.174 [info] [Error - 9:39:41 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:39:41.174 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:40:47.879 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 58 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/transaction_loader.py'), position=102:29, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/__init__.py", line 396, in help
+    name = KeywordName(self._inference_state, leaf.value)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 103, in __init__
+    self.parent_context = inference_state.builtins_module
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/__init__.py", line 129, in builtins_module
+    builtins_module, = self.import_module((module_name,), sys_path=[])
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/__init__.py", line 112, in import_module
+    return imports.import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 296, in run
+    return self._send(inference_state_id, function, args, kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 21:40:47.881 [info] [Error - 9:40:47 PM] Request textDocument/hover failed.
+2026-09-30 21:40:47.881 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:54:29.913 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 63 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/report_modes.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 546, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 225, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 204, in _document_symbol_range
+    end = name.get_definition_end_position()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type
+    for value in self._name.infer():
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 771, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 293, in run
+    self._send(delete_id, None)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 21:54:29.916 [info] [Error - 9:54:29 PM] Request textDocument/documentSymbol failed.
+2026-09-30 21:54:29.916 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:54:29.919 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/report_modes.py 
+2026-09-30 21:54:29.924 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "64": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:54:29.924 [info] [Error - 9:54:29 PM] Request textDocument/semanticTokens/full failed.
+2026-09-30 21:54:29.924 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:54:30.173 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 65 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/report_modes.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 546, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 225, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 204, in _document_symbol_range
+    end = name.get_definition_end_position()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type
+    for value in self._name.infer():
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 771, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 296, in run
+    return self._send(inference_state_id, function, args, kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 21:54:30.174 [info] [Error - 9:54:30 PM] Request textDocument/documentSymbol failed.
+2026-09-30 21:54:30.180 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:54:30.370 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/report_modes.py 0:0-126:0
+2026-09-30 21:54:30.376 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "66": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:54:30.379 [info] [Error - 9:54:30 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:54:30.379 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:54:31.692 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/report_modes.py 0:0-129:77
+2026-09-30 21:54:31.697 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "68": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:54:31.699 [info] [Error - 9:54:31 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:54:31.699 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:54:32.705 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/report_modes.py 0:0-131:14
+2026-09-30 21:54:32.711 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "69": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:54:32.713 [info] [Error - 9:54:32 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:54:32.713 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:54:32.990 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/report_modes.py 0:0-132:0
+2026-09-30 21:54:32.995 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "70": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:54:32.999 [info] [Error - 9:54:32 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:54:32.999 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 21:54:36.575 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept2-ai-code-generation/starter/report_modes.py 0:0-126:0
+2026-09-30 21:54:36.580 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "71": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 21:54:36.582 [info] [Error - 9:54:36 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 21:54:36.582 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:06:52.386 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 74 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 546, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 225, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 204, in _document_symbol_range
+    end = name.get_definition_end_position()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type
+    for value in self._name.infer():
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 771, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 293, in run
+    self._send(delete_id, None)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 22:06:52.388 [info] [Error - 10:06:52 PM] Request textDocument/documentSymbol failed.
+2026-09-30 22:06:52.388 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:06:52.390 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py 
+2026-09-30 22:06:52.396 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "75": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 22:06:52.397 [info] [Error - 10:06:52 PM] Request textDocument/semanticTokens/full failed.
+2026-09-30 22:06:52.397 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:06:52.619 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 76 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 546, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 225, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 204, in _document_symbol_range
+    end = name.get_definition_end_position()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type
+    for value in self._name.infer():
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 771, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 296, in run
+    return self._send(inference_state_id, function, args, kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 22:06:52.620 [info] [Error - 10:06:52 PM] Request textDocument/documentSymbol failed.
+2026-09-30 22:06:52.627 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:06:52.818 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py 0:0-126:26
+2026-09-30 22:06:52.821 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "77": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 22:06:52.826 [info] [Error - 10:06:52 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 22:06:52.826 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:06:54.277 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py 0:0-132:38
+2026-09-30 22:06:54.281 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "78": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 22:06:54.286 [info] [Error - 10:06:54 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 22:06:54.286 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:06:54.682 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py 0:0-132:38
+2026-09-30 22:06:54.686 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "79": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 22:06:54.689 [info] [Error - 10:06:54 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 22:06:54.689 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:06:56.095 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py 0:0-136:74
+2026-09-30 22:06:56.098 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "80": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 22:06:56.102 [info] [Error - 10:06:56 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 22:06:56.102 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:06:57.248 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py 0:0-145:0
+2026-09-30 22:06:57.251 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "81": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 22:06:57.256 [info] [Error - 10:06:57 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 22:06:57.256 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:07:08.081 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py 0:0-128:28
+2026-09-30 22:07:08.084 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "82": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 22:07:08.089 [info] [Error - 10:07:08 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 22:07:08.089 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:07:08.385 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py 0:0-126:26
+2026-09-30 22:07:08.389 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "83": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 22:07:08.392 [info] [Error - 10:07:08 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 22:07:08.392 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:07:09.103 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py 0:0-127:24
+2026-09-30 22:07:09.106 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "84": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 22:07:09.111 [info] [Error - 10:07:09 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 22:07:09.111 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:07:13.647 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py 0:0-127:24
+2026-09-30 22:07:13.651 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "86": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 22:07:13.660 [info] [Error - 10:07:13 PM] Request textDocument/semanticTokens/range failed.
+2026-09-30 22:07:13.660 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:07:13.842 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 87 textDocument/documentSymbol DocumentSymbolParams(text_document=TextDocumentIdentifier(uri='file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py'), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 546, in document_symbol
+    document_symbols = jedi_utils.lsp_document_symbols(names)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 225, in lsp_document_symbols
+    symbol_range = _document_symbol_range(name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 204, in _document_symbol_range
+    end = name.get_definition_end_position()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 260, in get_definition_end_position
+    if self.type in ("function", "class"):
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/api/classes.py", line 190, in type
+    for value in self._name.infer():
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 771, in tree_name_to_values
+    types = imports.infer_import(context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 53, in infer_import
+    _prepare_infer_import(module_context, tree_name)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 116, in _prepare_infer_import
+    return from_import_name, tuple(import_path), import_node.level, importer.follow()
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 296, in follow
+    return import_module_by_names(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 376, in import_module_by_names
+    value_set = ValueSet.from_sets([
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 377, in <listcomp>
+    import_module(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/plugins/flask.py", line 20, in wrapper
+    return callback(inference_state, import_names, module_context, *args, **kwargs)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 115, in wrapper
+    python_value_set = ValueSet.from_sets(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/gradual/typeshed.py", line 116, in <genexpr>
+    func(inference_state, import_names, p, sys_path,)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/imports.py", line 411, in import_module
+    file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 188, in wrapper
+    result = self._compiled_subprocess.run(
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 293, in run
+    self._send(delete_id, None)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/inference/compiled/subprocess/__init__.py", line 318, in _send
+    is_exception, traceback, result = pickle_load(self._get_process().stdout)
+  File "/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/lib/jedilsp/jedi/_compatibility.py", line 25, in pickle_load
+    return Unpickler(file).load()
+ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+
+2026-09-30 22:07:13.843 [info] [Error - 10:07:13 PM] Request textDocument/documentSymbol failed.
+2026-09-30 22:07:13.850 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]
+2026-09-30 22:07:14.026 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept3-ai-test-creation/starter/test_report_engine_EXAMPLES.py 
+2026-09-30 22:07:14.030 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "88": ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+NoneType: None
+
+2026-09-30 22:07:14.034 [info] [Error - 10:07:14 PM] Request textDocument/semanticTokens/full failed.
+2026-09-30 22:07:14.034 [info]   Message: ValueError: invalid literal for int() with base 10: '_types import PytestConfigWarning\n'
+  Code: -32603 
+[object Object]

@@ -1,0 +1,178 @@
+CLI EXPENSE TRACKER — PROJECT STRUCTURE
+=======================================
+
+Layout for the architecture selected in architecture_plan.md §3: four layers
+(presentation -> orchestration -> domain -> data access), Strategy pattern for
+report modes, decorator registry for mode discovery, constructor injection
+throughout.
+
+Reading guide: the three directories that are EXPECTED TO GROW are src/
+expense_tracker/loaders/, modes/, and formatters/ — one per extension point.
+Everything else is the fixed core. If a change requires editing a file outside
+those three directories to add a report type, the design has been violated.
+
+
+DIRECTORY TREE
+--------------
+
+expense-tracker/
+├── main.py                         # Entry point. ~15 lines: sys.exit(cli.run(sys.argv[1:])).
+│                                   #   The ONLY module that calls sys.exit, which keeps
+│                                   #   cli.run() directly callable from tests.
+├── README.md                       # Install, usage, CSV column format, example output.
+├── requirements.txt                # Empty (stdlib only) — present so the contract is explicit.
+├── pyproject.toml                  # Packaging + pytest/mypy config. src-layout declaration.
+│
+├── architecture_plan.md            # Prompt 1 deliverable: alternatives, trade-offs, decision.
+├── project_structure.txt           # This file.
+│
+├── src/                            # src-layout: tests import the INSTALLED package, never
+│   │                               #   the working directory, so a missing __init__.py or a
+│   │                               #   bad packaging config fails in CI instead of shipping.
+│   └── expense_tracker/
+│       ├── __init__.py             # Package version only. No re-exports, no import side effects.
+│       │
+│       │                           # ---- PRESENTATION LAYER (argv in, text out) ----
+│       ├── cli.py                  # argparse setup; builds the concrete loader and looks the
+│       │                           #   mode up in the registry; invokes ReportEngine; catches
+│       │                           #   ExpenseTrackerError -> stderr message + exit code.
+│       │                           #   The ONLY module that knows about argv. <200 lines.
+│       │
+│       │                           # ---- ORCHESTRATION LAYER ----
+│       ├── engine.py               # ReportEngine. Sequences loader.load() -> mode.
+│       │                           #   process_transactions() -> Report. Holds ZERO business
+│       │                           #   rules. Collaborators arrive via __init__ (DIP), so
+│       │                           #   tests inject fakes and never touch the filesystem.
+│       │
+│       │                           # ---- DOMAIN LAYER (pure; imports no other layer) ----
+│       ├── interfaces.py           # ABCs: TransactionLoader, ReportMode. THE INVERSION POINT.
+│       │                           #   A leaf of the import graph — cannot form a cycle.
+│       ├── models.py               # Transaction, ReportRow, Report. Immutable NamedTuples.
+│       │                           #   Decimal for money, never float. No behaviour beyond
+│       │                           #   derived properties.
+│       ├── errors.py               # ExpenseTrackerError hierarchy: DataFileNotFoundError,
+│       │                           #   DataAccessError, MalformedDataError (carries row no. +
+│       │                           #   field), UnknownReportModeError. One base type for cli.py
+│       │                           #   to catch.
+│       │
+│       │                           # ---- EXTENSION POINT 1: data sources ----
+│       ├── loaders/                # Each file = one storage format implementing
+│       │   │                       #   TransactionLoader. Add JSON/SQLite here; nothing
+│       │   │                       #   downstream changes, because callers only ever see
+│       │   │                       #   List[Transaction].
+│       │   ├── __init__.py
+│       │   ├── csv_loader.py       # CsvTransactionLoader. encoding="utf-8-sig" (BOM),
+│       │   │                       #   newline="", csv.DictReader. Translates every
+│       │   │                       #   csv.Error/OSError/ValueError into errors.py types.
+│       │   └── validation.py       # Pure field coercion: str -> date, str -> Decimal,
+│       │                           #   required-field and category checks. NO file I/O, so it
+│       │                           #   is tested with plain dicts.
+│       │
+│       │                           # ---- EXTENSION POINT 2: report types (PRIMARY) ----
+│       ├── modes/                  # Each file = one ReportMode strategy. Adding a report is
+│       │   │                       #   a new file + one import line. engine.py, cli.py and
+│       │   │                       #   formatters/ are NEVER edited. This is Open/Closed.
+│       │   ├── __init__.py         # Imports each mode module so @register decorators run.
+│       │   │                       #   The one deliberate OCP compromise (plan §7.1).
+│       │   ├── registry.py         # @register(name) decorator, get(name) -> raises
+│       │   │                       #   UnknownReportModeError, available() feeds --help so
+│       │   │                       #   the CLI's choices stay correct automatically.
+│       │   ├── by_category.py      # CategorySummaryMode — group by category, sum, sort desc.
+│       │   └── monthly.py          # MonthlyTotalsMode — group by YYYY-MM, sum, sort by date.
+│       │
+│       │                           # ---- EXTENSION POINT 3: output formats ----
+│       └── formatters/
+│           ├── __init__.py
+│           ├── table.py            # TableFormatter: Report -> aligned str. RETURNS a string,
+│           │                       #   does not print — that is what makes it assertable and
+│           │                       #   makes a JSON/CSV formatter a drop-in substitute.
+│           └── console.py          # ConsoleWriter: writes to an INJECTED stream, so tests
+│                                   #   pass StringIO. The only module that touches stdout.
+│
+├── tests/                          # Mirrors src/expense_tracker/ one-to-one: the test for any
+│   │                               #   module is findable by name. Almost every test is a pure
+│   │                               #   unit test — the layering is what buys that.
+│   ├── __init__.py
+│   ├── conftest.py                 # Shared fixtures: sample transaction lists, tmp_path CSVs.
+│   ├── fakes.py                    # Test doubles: InMemoryLoader, RecordingWriter, StubMode.
+│   │                               #   Hand-written, not Mock — the interfaces are small
+│   │                               #   enough (ISP) that real fakes are cheaper than mocks.
+│   ├── test_models.py              # Decimal arithmetic, Report.empty(), derived properties.
+│   ├── test_validation.py          # Date/Decimal coercion edge cases, missing fields.
+│   ├── test_csv_loader.py          # Happy path + missing file, unreadable file, empty file,
+│   │                               #   header-only file, missing column, bad date, bad amount,
+│   │                               #   BOM-prefixed file. Asserts errors.py types, not messages.
+│   ├── test_by_category.py         # Aggregation correctness, tie ordering, empty input.
+│   ├── test_monthly.py             # Month bucketing across a year boundary, empty input.
+│   ├── test_registry.py            # Registration, duplicate-name rejection, unknown-mode error,
+│   │                               #   and: every shipped mode resolves (guards the §9 risk).
+│   ├── test_engine.py              # Orchestration via injected fakes. No filesystem at all.
+│   ├── test_table_formatter.py     # Column alignment, totals row, empty-report rendering.
+│   ├── test_cli.py                 # run([...]) with argv lists; exit codes + captured stderr.
+│   ├── test_integration.py         # End-to-end: real CSV in data/ -> full pipeline -> stdout.
+│   └── fixtures/                   # Test-only CSVs. Separate from data/ so sample data the
+│       ├── valid_expenses.csv      #   user is invited to edit can never break the suite.
+│       ├── malformed_amount.csv
+│       └── header_only.csv
+│
+├── data/                           # Sample input shipped with the app, for the README walkthrough.
+│   └── sample_expenses.csv         # date,amount,category,description
+│
+└── docs/
+    ├── ADDING_A_REPORT_MODE.md     # The 3-step recipe from architecture_plan.md §7.1.
+    └── CSV_FORMAT.md               # Column contract, accepted date formats, amount sign rule.
+
+
+FILE NAMING CONVENTIONS
+-----------------------
+
+  Modules      snake_case, singular noun for a concept (engine.py, registry.py);
+               plural only for package directories holding siblings (modes/, loaders/).
+  Classes      PascalCase, named for the role they play in the design:
+               <Format>TransactionLoader (CsvTransactionLoader),
+               <Subject><Aggregation>Mode (CategorySummaryMode, MonthlyTotalsMode).
+  Tests        tests/test_<module>.py mirroring the source path; test functions read
+               test_<unit>_<condition>_<expected> (test_load_missing_file_raises_not_found).
+  Registry     mode keys are lowercase hyphenated (by-category, monthly). They are CLI
+               surface, so they are stable across releases; class names may be renamed
+               freely, registry keys may not.
+
+
+IMPORT PATH STRATEGY
+--------------------
+
+  Within the package   Relative imports for siblings and children:
+                       engine.py  ->  from .interfaces import ReportMode, TransactionLoader
+                       modes/by_category.py  ->  from ..models import Report, ReportRow
+                       Relative imports make the package relocatable and make an
+                       accidental cross-layer import visibly ugly (from ...x import y).
+
+  From tests           Absolute, against the installed package:
+                       from expense_tracker.modes.by_category import CategorySummaryMode
+                       src-layout means this only resolves after `pip install -e .`,
+                       which is the point: tests exercise what actually ships.
+
+  Direction            STRICTLY downward: presentation -> orchestration -> domain,
+                       data access -> domain. The domain layer (interfaces, models,
+                       errors) imports NOTHING from the project and is therefore a
+                       permanent leaf. No cycles are possible by construction.
+
+  Forbidden            modes/ importing loaders/     (a report must not know about files)
+                       loaders/ importing modes/     (a loader must not know about reports)
+                       anything importing cli.py     (nothing depends on the outer layer)
+                       formatters/ importing engine.py or loaders/
+
+  Concrete wiring      ONLY cli.py names concrete classes. engine.py, every mode, and
+                       every formatter see abstractions (DIP), which is what lets
+                       test_engine.py run with a fake loader and no disk access.
+
+
+NOTE ON THIS FILE VS architecture_plan.md §6
+--------------------------------------------
+
+  The plan's §6 tree places the package at the repository root. This file adopts
+  the src/ layout instead, for the CI-correctness reason noted above; the module
+  set and responsibilities are otherwise identical. In this exercise folder,
+  interfaces.py and models.py sit at the top level rather than under src/ so the
+  planning artifacts stay importable on their own — the module docstring in each
+  records its shipped location.

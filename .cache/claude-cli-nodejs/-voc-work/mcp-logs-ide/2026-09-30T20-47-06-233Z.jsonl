@@ -1,0 +1,18 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-30T20:47:57.585Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Successfully connected (transport: ws-ide) in 24ms","timestamp":"2026-09-30T20:47:57.605Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"Claude Code code-server MCP\",\"version\":\"1.0.108\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2025-06-18\"}","timestamp":"2026-09-30T20:47:57.606Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Channel notifications skipped: server did not declare claude/channel capability","timestamp":"2026-09-30T20:47:57.651Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-30T20:50:34.856Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 46ms","timestamp":"2026-09-30T20:50:34.902Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-30T20:59:27.431Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 50ms","timestamp":"2026-09-30T20:59:27.480Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-30T21:21:30.616Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 38ms","timestamp":"2026-09-30T21:21:30.654Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-30T21:40:15.137Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 60ms","timestamp":"2026-09-30T21:40:15.197Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-30T21:45:05.069Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 28ms","timestamp":"2026-09-30T21:45:05.096Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-30T21:50:59.926Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 40ms","timestamp":"2026-09-30T21:50:59.966Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-30T21:53:52.471Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 31ms","timestamp":"2026-09-30T21:53:52.502Z","sessionId":"8eebe48e-5ccd-4c2e-9f0a-0f9d092bbc98","cwd":"/voc/work"}

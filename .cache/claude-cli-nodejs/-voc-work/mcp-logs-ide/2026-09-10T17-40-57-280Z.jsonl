@@ -1,0 +1,137 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-10T17:41:01.817Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Successfully connected (transport: ws-ide) in 27ms","timestamp":"2026-09-10T17:41:01.842Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"Claude Code code-server MCP\",\"version\":\"1.0.108\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2025-06-18\"}","timestamp":"2026-09-10T17:41:01.842Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Channel notifications skipped: server did not declare claude/channel capability","timestamp":"2026-09-10T17:41:01.882Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T17:41:39.042Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 52ms","timestamp":"2026-09-10T17:41:39.094Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T17:45:25.498Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 21ms","timestamp":"2026-09-10T17:45:25.519Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T17:49:20.699Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 29ms","timestamp":"2026-09-10T17:49:20.728Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T17:50:12.207Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T17:50:22.529Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T17:50:22.532Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 22ms","timestamp":"2026-09-10T17:50:22.554Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T17:50:22.641Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 33ms","timestamp":"2026-09-10T17:50:22.674Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 151ms","timestamp":"2026-09-10T17:50:22.680Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 10s","timestamp":"2026-09-10T17:50:22.690Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T17:50:22.691Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T17:50:22.692Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T17:52:25.945Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 17ms","timestamp":"2026-09-10T17:52:25.962Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T17:52:25.970Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 27ms","timestamp":"2026-09-10T17:52:25.996Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T17:55:40.187Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 9ms","timestamp":"2026-09-10T17:55:40.196Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T17:56:41.955Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (30s elapsed)","timestamp":"2026-09-10T17:57:11.956Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T17:57:16.623Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T17:57:16.626Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 18ms","timestamp":"2026-09-10T17:57:16.644Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T17:57:16.679Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 30ms","timestamp":"2026-09-10T17:57:16.710Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 118ms","timestamp":"2026-09-10T17:57:16.741Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 34s","timestamp":"2026-09-10T17:57:16.804Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T17:57:16.804Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T17:57:16.805Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T17:57:49.703Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 12ms","timestamp":"2026-09-10T17:57:49.715Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T17:57:49.721Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 19ms","timestamp":"2026-09-10T17:57:49.740Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T17:58:02.716Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T17:58:07.487Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T17:58:07.489Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 18ms","timestamp":"2026-09-10T17:58:07.507Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T17:58:07.538Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 18ms","timestamp":"2026-09-10T17:58:07.556Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 134ms","timestamp":"2026-09-10T17:58:07.621Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 4s","timestamp":"2026-09-10T17:58:07.632Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T17:58:07.632Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T17:58:07.633Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T18:09:03.319Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 21ms","timestamp":"2026-09-10T18:09:03.340Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T18:09:03.344Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 36ms","timestamp":"2026-09-10T18:09:03.380Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T18:09:46.799Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 35ms","timestamp":"2026-09-10T18:09:46.834Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T18:52:22.966Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T18:52:32.759Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T18:52:32.763Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 20ms","timestamp":"2026-09-10T18:52:32.783Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T18:52:32.848Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 39ms","timestamp":"2026-09-10T18:52:32.887Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 138ms","timestamp":"2026-09-10T18:52:32.897Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 9s","timestamp":"2026-09-10T18:52:32.901Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T18:52:32.901Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T18:52:32.902Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T18:59:31.939Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 50ms","timestamp":"2026-09-10T18:59:31.989Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T18:59:32.009Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 48ms","timestamp":"2026-09-10T18:59:32.057Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:02:12.665Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:02:24.741Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:02:24.744Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 28ms","timestamp":"2026-09-10T19:02:24.773Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:02:24.799Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 25ms","timestamp":"2026-09-10T19:02:24.824Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 120ms","timestamp":"2026-09-10T19:02:24.861Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 12s","timestamp":"2026-09-10T19:02:24.881Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:02:24.881Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T19:02:24.882Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:02:46.224Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 7ms","timestamp":"2026-09-10T19:02:46.231Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:02:49.695Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:03:03.920Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:03:03.922Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 19ms","timestamp":"2026-09-10T19:03:03.941Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:03:03.956Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 12ms","timestamp":"2026-09-10T19:03:03.968Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 122ms","timestamp":"2026-09-10T19:03:04.042Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 14s","timestamp":"2026-09-10T19:03:04.084Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:03:04.084Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T19:03:04.085Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:03:07.528Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:03:15.574Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:03:15.575Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 17ms","timestamp":"2026-09-10T19:03:15.592Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:03:15.615Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 17ms","timestamp":"2026-09-10T19:03:15.632Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 135ms","timestamp":"2026-09-10T19:03:15.709Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 8s","timestamp":"2026-09-10T19:03:15.753Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:03:15.753Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T19:03:15.754Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:04:00.558Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (30s elapsed)","timestamp":"2026-09-10T19:04:30.558Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:04:43.921Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:04:43.923Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 23ms","timestamp":"2026-09-10T19:04:43.947Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:04:43.967Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 16ms","timestamp":"2026-09-10T19:04:43.983Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 132ms","timestamp":"2026-09-10T19:04:44.053Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 43s","timestamp":"2026-09-10T19:04:44.084Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:04:44.084Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 1ms","timestamp":"2026-09-10T19:04:44.085Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: openDiff","timestamp":"2026-09-10T19:04:49.502Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' still running (30s elapsed)","timestamp":"2026-09-10T19:05:19.502Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'openDiff' completed successfully in 36s","timestamp":"2026-09-10T19:05:26.449Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:05:26.449Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: close_tab","timestamp":"2026-09-10T19:05:26.450Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 37ms","timestamp":"2026-09-10T19:05:26.486Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'close_tab' completed successfully in 37ms","timestamp":"2026-09-10T19:05:26.487Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:06:33.310Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 14ms","timestamp":"2026-09-10T19:06:33.324Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T19:06:33.327Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 29ms","timestamp":"2026-09-10T19:06:33.356Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T19:14:58.018Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 40ms","timestamp":"2026-09-10T19:14:58.059Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T19:17:08.963Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 38ms","timestamp":"2026-09-10T19:17:09.001Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-09-10T19:18:42.135Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 28ms","timestamp":"2026-09-10T19:18:42.163Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:21:19.236Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 6ms","timestamp":"2026-09-10T19:21:19.242Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:21:19.387Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 2ms","timestamp":"2026-09-10T19:21:19.389Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Calling MCP tool: getDiagnostics","timestamp":"2026-09-10T19:21:46.531Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}
+{"debug":"Tool 'getDiagnostics' completed successfully in 10ms","timestamp":"2026-09-10T19:21:46.541Z","sessionId":"bd4c451c-2c43-48fc-9ce7-5c6e0ba19a7e","cwd":"/voc/work"}

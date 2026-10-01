@@ -1,0 +1,73 @@
+<role>
+Technical writer creating clear end-user documentation
+</role>
+
+<task>
+Revise the exisiting project and generate an updated README.md for expense tracker CLI application
+</task>
+
+<target_audience>
+End users who want to track and analyze expenses:
+- May not be Python developers
+- Need clear setup and usage instructions
+- Want examples they can copy/paste
+- Need to understand CSV format requirements
+</target_audience>
+
+<application_context>
+<what_it_does>
+CLI tool that loads expense transactions from CSV and generates reports:
+- Summary by category (Food, Transport, etc.)
+- Monthly totals breakdown
+Displays formatted reports in terminal
+</what_it_does>
+
+<technical_details>
+- Python 3.8+ required
+- No external dependencies (stdlib only)
+- CSV format: date,amount,category,description
+- Entry point: main.py
+- Sample data included in data/ folder
+</technical_details>
+</application_context>
+
+<content_requirements>
+Include these sections:
+
+## Overview
+- One paragraph: what it does, who it's for
+
+## Installation
+- Prerequisites (Python version)
+- Setup steps (clone, navigate)
+- How to verify it works
+
+## Quick Start
+- Simplest usage example
+- Show expected output
+
+## Usage
+- All command-line options explained
+- CSV format specification with example
+- Different report mode examples with outputs
+
+## Examples
+- Basic usage with sample data
+- Custom data file
+- Different report types
+- Show actual terminal output for each
+
+## Troubleshooting
+- File not found errors
+- Invalid CSV format
+- Common mistakes and solutions
+</content_requirements>
+
+<style_guidelines>
+- Use clear, concise language (no jargon unless explained)
+- Every command in code block
+- Show expected output for examples
+- Use real-world expense examples (groceries, transport, etc.)
+- Include emoji for visual sections (sparingly)
+- Markdown formatting for readability
+</style_guidelines>

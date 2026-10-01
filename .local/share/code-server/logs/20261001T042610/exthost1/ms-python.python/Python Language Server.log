@@ -1,0 +1,4 @@
+2026-10-01 04:27:37.833 [info] semantic_tokens_range file:///voc/work/project/starter/main.py 0:0-35:10
+2026-10-01 04:27:37.897 [info] [Debug - 4:27:37 AM] no matching semantic token for "__name__" of type 'statement' (35:3)
+2026-10-01 04:27:37.900 [info] semantic_tokens_full file:///voc/work/project/starter/main.py 
+2026-10-01 04:27:37.915 [info] [Debug - 4:27:37 AM] no matching semantic token for "__name__" of type 'statement' (35:3)

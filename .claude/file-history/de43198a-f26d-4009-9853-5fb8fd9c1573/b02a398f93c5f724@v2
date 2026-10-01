@@ -1,0 +1,34 @@
+"""Per-method size breakdown, docstrings excluded from the statement count."""
+import ast
+import os
+import sys
+
+sys.path.insert(0, os.getcwd())
+
+
+def report(path):
+    tree = ast.parse(open(path).read())
+    cls = next(n for n in ast.walk(tree)
+               if isinstance(n, ast.ClassDef) and n.name == "CLIInterface")
+    print(f"== {path}")
+    for m in [n for n in cls.body if isinstance(n, ast.FunctionDef)]:
+        body = m.body
+        if (body and isinstance(body[0], ast.Expr)
+                and isinstance(body[0].value, ast.Constant)
+                and isinstance(body[0].value.value, str)):
+            body = body[1:]  # drop docstring
+        stmts = sum(1 for b in body for n in ast.walk(b)
+                    if isinstance(n, ast.stmt))
+        if body:
+            start = body[0].lineno
+            end = max(n.end_lineno for b in body for n in ast.walk(b)
+                      if getattr(n, "end_lineno", None) is not None)
+            span = end - start + 1
+        else:
+            span = 0
+        print(f"  {m.name:24s} stmts={stmts:<3} code_lines={span}")
+    print()
+
+
+report("cli_interface_v1.py")
+report("cli_interface_v2.py")

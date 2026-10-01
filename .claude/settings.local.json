@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(env -i HOME=/voc/work /bin/bash --noprofile --norc -c 'which pytest && pytest --version')",
+      "Bash(env -i HOME=/voc/work /bin/sh -c 'pytest --version')",
+      "Bash(env -i HOME=/voc/work PATH=/usr/local/bin:/usr/bin:/bin pytest test_log_formatter.py -v)",
+      "Bash(python3 -c \"import models; print\\(models.Transaction, models.Report.empty\\('x'\\)\\)\")",
+      "Bash(python3 -c \"import pytest; print\\(pytest.__version__\\)\")",
+      "Bash(python3 *)"
+    ]
+  }
+}

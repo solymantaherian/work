@@ -1,0 +1,113 @@
+"""Measure comparable metrics for cli_interface v1 vs v2."""
+import ast
+import os
+import sys
+
+sys.path.insert(0, os.getcwd())
+
+
+def measure(path):
+    src = open(path).read()
+    lines = src.splitlines()
+    tree = ast.parse(src)
+
+    total_lines = len(lines)
+    code_lines = 0
+    in_doc = False
+    for ln in lines:
+        s = ln.strip()
+        if not s:
+            continue
+        if s.startswith("#"):
+            continue
+        code_lines += 1
+
+    # Statement count is docstring/comment-independent.
+    stmts = sum(1 for n in ast.walk(tree) if isinstance(n, ast.stmt))
+
+    cls = next(n for n in ast.walk(tree)
+               if isinstance(n, ast.ClassDef) and n.name == "CLIInterface")
+
+    methods = [n for n in cls.body if isinstance(n, ast.FunctionDef)]
+    public = [m for m in methods if not m.name.startswith("_")]
+
+    # Class-level constants (assignments in the class body).
+    consts = [n for n in cls.body
+              if isinstance(n, (ast.Assign, ast.AnnAssign))]
+
+    # Method length in statements and in source lines (body only).
+    def body_lines(m):
+        start = m.body[0].lineno
+        end = max(n.end_lineno for n in ast.walk(m)
+                  if getattr(n, "end_lineno", None) is not None)
+        return end - start + 1
+
+    def body_stmts(m):
+        return sum(1 for n in ast.walk(m) if isinstance(n, ast.stmt)) - 1
+
+    longest_lines = max(body_lines(m) for m in methods)
+    longest_name = max(methods, key=body_lines).name
+    longest_stmts = max(body_stmts(m) for m in methods)
+
+    # Magic literals inside method bodies (excludes class-constant defs).
+    magic_str, magic_num = [], []
+    for m in methods:
+        for n in ast.walk(m):
+            if isinstance(n, ast.Constant):
+                if isinstance(n.value, str) and n.value not in ("",):
+                    # Skip docstrings.
+                    magic_str.append(n.value)
+                elif isinstance(n.value, (int, float)) and not isinstance(n.value, bool):
+                    magic_num.append(n.value)
+    # Remove docstrings from the string tally.
+    for m in methods:
+        d = ast.get_docstring(m, clean=False)
+        if d is not None and d in magic_str:
+            magic_str.remove(d)
+
+    # Type-hint coverage: annotated slots / total slots across all methods.
+    slots_total = 0
+    slots_annotated = 0
+    for m in methods:
+        args = [a for a in m.args.args if a.arg != "self"]
+        slots_total += len(args) + 1  # +1 for the return
+        slots_annotated += sum(1 for a in args if a.annotation is not None)
+        slots_annotated += 1 if m.returns is not None else 0
+
+    return {
+        "path": path,
+        "total_lines": total_lines,
+        "code_lines": code_lines,
+        "stmts": stmts,
+        "methods": len(methods),
+        "public": len(public),
+        "consts": len(consts),
+        "longest_name": longest_name,
+        "longest_lines": longest_lines,
+        "longest_stmts": longest_stmts,
+        "magic_str": len(magic_str),
+        "magic_num": len(magic_num),
+        "magic_total": len(magic_str) + len(magic_num),
+        "slots_total": slots_total,
+        "slots_annotated": slots_annotated,
+        "coverage": round(100 * slots_annotated / slots_total),
+        "trailing_ws": sum(1 for ln in lines if ln != ln.rstrip()),
+        "longest_line": max(len(ln) for ln in lines),
+        "magic_str_vals": sorted(set(magic_str)),
+        "magic_num_vals": sorted(set(magic_num)),
+    }
+
+
+a = measure("cli_interface_v1.py")
+b = measure("cli_interface_v2.py")
+
+for k in a:
+    if k.endswith("_vals"):
+        continue
+    print(f"{k:16s} v1={a[k]:<28} v2={b[k]}")
+
+print()
+print("v1 magic strings:", a["magic_str_vals"])
+print("v1 magic numbers:", a["magic_num_vals"])
+print("v2 magic strings:", b["magic_str_vals"])
+print("v2 magic numbers:", b["magic_num_vals"])

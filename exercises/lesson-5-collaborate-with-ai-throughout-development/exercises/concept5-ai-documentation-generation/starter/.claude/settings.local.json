@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 main.py examples/sample_expenses.csv)",
+      "Bash(python3 main.py examples/sample_expenses.csv --report monthly)",
+      "Bash(python3 main.py examples/sample_expenses.csv --report top --top-n 5)"
+    ]
+  }
+}

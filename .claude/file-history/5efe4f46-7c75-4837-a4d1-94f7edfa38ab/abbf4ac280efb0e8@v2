@@ -1,0 +1,161 @@
+"""Abstract contracts for the two extension points of the expense tracker.
+
+This module is the *inversion point* of the architecture described in
+``architecture_plan.md``. It defines what a data source must do and what a
+report must do, without knowing that CSV files or categories exist. Every other
+module either implements one of these contracts or depends on them:
+
+* ``loaders/csv_loader.py`` implements :class:`TransactionLoader`.
+* ``modes/by_category.py`` and ``modes/monthly.py`` implement :class:`ReportMode`.
+* ``engine.py`` depends on both abstractions and on no concrete class.
+
+Because this module imports nothing but the standard library and
+:mod:`models`, it is a leaf of the dependency graph and can never participate
+in an import cycle.
+
+Only two interfaces are defined here, deliberately. ``ReportEngine`` and
+``CLIInterface`` from the architecture discussion are *concrete* classes with a
+single implementation each; abstracting them would add indirection that no
+caller can use (see "Implementation notes" in ``architecture_plan.md`` §4).
+
+In the shipped package this module lives at ``src/expense_tracker/interfaces.py``
+and the import below becomes ``from .models import Report, Transaction``. It
+sits at the repository root here so the planning artifacts remain a
+self-contained, importable set.
+"""
+from abc import ABC, abstractmethod
+from pathlib import Path
+from typing import ClassVar, List, Sequence, Union
+
+from models import Report, Transaction
+
+__all__ = ["TransactionLoader", "ReportMode"]
+
+#: What :meth:`TransactionLoader.load` accepts. ``str`` is what ``argparse``
+#: hands us; ``Path`` is what well-behaved callers and tests use.
+FilePath = Union[str, Path]
+
+
+class TransactionLoader(ABC):
+    """Contract for turning an external data source into validated transactions.
+
+    An implementation owns *all* of the I/O and parsing for one storage format.
+    Everything downstream of a loader — the engine, every report mode, every
+    formatter — is guaranteed to see only well-typed
+    :class:`~models.Transaction` objects, and is therefore free of filesystem
+    concerns and of defensive re-validation.
+
+    **Substitutability.** A JSON or SQLite loader must be droppable in place of
+    the CSV one with no change to any caller. That means the contract below is
+    about *behaviour*, not about files: an implementation that reads from a
+    network or from memory is equally valid.
+
+    **Error translation is mandatory.** Implementations must not let
+    format-specific exceptions escape. ``csv.Error``, ``ValueError`` from
+    ``Decimal``, ``json.JSONDecodeError``, ``OSError`` and friends are all
+    translated into the ``ExpenseTrackerError`` hierarchy defined in
+    ``errors.py``. This is what lets ``cli.py`` catch exactly one base type and
+    render a friendly message, instead of guessing at leaked internals.
+
+    **Statelessness.** Implementations hold configuration (encoding, dialect,
+    column mapping) but never per-call state, so one instance may serve many
+    :meth:`load` calls.
+    """
+
+    @abstractmethod
+    def load(self, filepath: FilePath) -> List[Transaction]:
+        """Read, validate, and return every transaction in ``filepath``.
+
+        The call is atomic with respect to validation: either every row parsed
+        and a complete list is returned, or an exception is raised and the
+        caller gets nothing. Partial results are never returned, because a
+        report over silently-dropped rows is a wrong report presented as a
+        right one.
+
+        Args:
+            filepath: Location of the data to read. Accepts ``str`` or
+                :class:`~pathlib.Path`. Implementations must resolve the path
+                and confirm it names an existing regular file *before* opening
+                it.
+
+        Returns:
+            Transactions in source order. Ordering is preserved rather than
+            sorted, so report modes remain free to define their own ordering.
+            An empty list is a valid, successful result: a file containing only
+            a header row has zero transactions, which is     DataFileNotFoundError: ``filepath`` does not exist, or names a
+                directory rather than a file.
+            DataAccessError: The file exists but cannot be read — permissions,
+                or an undecodable byte sequence for the configured encoding.
+            MalformedDataError: The content is unusable. Carries the 1-based
+                source row number and the offending field name so the CLI can
+                say *which* row is bad. Covers: a missing required column, an
+                unparseable date, an unparseable or non-numeric amount, and an
+                empty category.
+
+        All three are subclasses of ``ExpenseTrackerError`` (``errors.py``).
+        No other exception type may escape this method.
+        """
+        raise NotImplementedError
+
+
+class ReportMode(ABC):
+    """Strategy contract for aggregating transactions into one report.
+
+    This is the system's primary extension point. Each implementation is one
+    report type, lives in its own module under ``modes/``, and registers itself
+    under :attr:`name`. Adding a report means adding a file — no existing
+    module is edited, which is the Open/Closed compliance the architecture is
+    organised around.
+
+    **Purity.** Implementations perform computation only: no file access, no
+    printing, no clock or environment reads. That is what makes a report mode
+    testable by constructing a list of transactions and comparing the returned
+    :class:`~models.Report` — no mocks, no fixtures, no temp directories.
+
+    **The input is read-only.** ``transactions`` is typed as a
+    :class:`~typing.Sequence` rather than a ``List`` to say so at the type
+    level. An implementation must not sort in place, mutate, or retain the
+    argument; it builds new rows and returns them.
+
+    **Totality (Liskov).** :meth:`process_transactions` is total over its input
+    domain. Empty input and input where nothing matches both yield
+    ``Report.empty(title)`` — never ``None``, never an exception. Any mode may
+    therefore be substituted for any other without the engine or the CLI
+    learning a special case. A mode needing configuration (a date range, a
+    category filter) takes it in ``__init__`` and validates it there, raising
+    ``ValueError`` at construction time rather than weakening this contract.
+    """
+
+    #: Registry key and CLI value for ``--mode``. Lowercase, hyphen-separated,
+    #: stable across releases (it is part of the CLI's public surface).
+    name: ClassVar[str]
+
+    #: One-line summary shown in ``--help``. Sentence case, no trailing period.
+    description: ClassVar[str]
+
+    @abstractmethod
+    def process_transactions(self, transactions: Sequence[Transaction]) -> Report:
+        """Aggregate ``transactions`` into a finished report.
+
+        Args:
+            transactions: Validated transactions, in loader order. Treat as
+                immutable. May be empty.
+
+        Returns:
+            A :class:`~models.Report` whose ``rows`` are in this mode's chosen
+            display order — row ordering is part of each mode's own contract,
+            and the formatting layer never re-sorts. ``total`` must be
+            consistent with ``rows`` under the mode's own definition of a total
+            (usually their sum; a mode is free to define an average or a net
+            figure instead, and should document it). Amounts stay
+            :class:`~decimal.Decimal` end to end; converting to ``float``
+            anywhere in an implementation is a defect.
+
+        Raises:
+            Nothing, under normal operation. The contract is total: empty input
+            and no-match input both return ``Report.empty(...)``. An
+            implementation that raises here — for a missing category, an
+            unexpected date, an empty set — breaks substitutability and forces
+            every caller to special-case it.
+        """
+        raise NotImplementedError

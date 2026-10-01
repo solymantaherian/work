@@ -1,0 +1,12 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-10-01T04:30:20.552Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}
+{"debug":"Successfully connected (transport: ws-ide) in 37ms","timestamp":"2026-10-01T04:30:20.585Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"Claude Code code-server MCP\",\"version\":\"1.0.108\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2025-06-18\"}","timestamp":"2026-10-01T04:30:20.585Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}
+{"debug":"Channel notifications skipped: server did not declare claude/channel capability","timestamp":"2026-10-01T04:30:20.622Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-10-01T04:30:48.595Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 30ms","timestamp":"2026-10-01T04:30:48.625Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-10-01T04:32:07.323Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 20ms","timestamp":"2026-10-01T04:32:07.343Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-10-01T04:41:47.245Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 33ms","timestamp":"2026-10-01T04:41:47.278Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}
+{"debug":"Calling MCP tool: closeAllDiffTabs","timestamp":"2026-10-01T04:42:47.398Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}
+{"debug":"Tool 'closeAllDiffTabs' completed successfully in 19ms","timestamp":"2026-10-01T04:42:47.417Z","sessionId":"b32981be-9a23-44bc-b86a-52088b7e2260","cwd":"/voc/work/project/starter"}

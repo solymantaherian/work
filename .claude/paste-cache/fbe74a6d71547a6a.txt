@@ -1,0 +1,40 @@
+<task>
+Create a new version of the cli interface on a new versioned file with refactorings applied
+</task>
+
+
+<refactorings_to_apply>
+1. Extract all color codes into class constants (LOW risk)
+   - Create Color class or constants: RESET, RED, GREEN, BLUE, YELLOW
+   - Replace all "\033[..." literals with named constants
+
+2. Create helper method for error formatting (LOW risk)
+   - Extract repeated error formatting into _format_error_message(msg: str) -> str
+   - Use in all error display methods
+
+3. Add complete type hints (LOW risk)
+   - Add return type hints to all methods
+   - Add parameter type hints where missing
+   - Import typing as needed
+
+4. Extract report formatting (MEDIUM risk)
+   - Split display_report into smaller focused methods
+   - _format_header, _format_row, _format_footer
+   - Maintain exact same output format
+</refactorings_to_apply>
+
+<critical_constraints>
+- ALL existing tests must pass WITHOUT modification
+- Public API must remain identical (method signatures unchanged)
+- Output format must be EXACTLY the same
+- No behavior changes - only structure improvements
+- Keep same error messages (tests may check them)
+- Maintain backward compatibility completely
+</critical_constraints>
+
+<quality_requirements>
+- Add docstrings to new helper methods
+- Keep code PEP 8 compliant
+- Preserve existing comments if they explain "why"
+- Update class docstring to mention constants
+</quality_requirements>

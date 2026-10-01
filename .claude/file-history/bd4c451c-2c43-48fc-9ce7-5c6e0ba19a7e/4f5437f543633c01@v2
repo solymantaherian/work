@@ -1,0 +1,305 @@
+"""
+Tests for the refactored authentication module.
+
+These assert the intended behaviour, not the current behaviour: expectations are
+derived from the policy constants rather than restating their values, so a
+policy change ripples instead of breaking six tests.
+"""
+
+import time
+
+import pytest
+
+from user_auth import (
+    LOCKOUT_WINDOW_SECONDS,
+    MAX_FAILED_ATTEMPTS,
+    MAX_PASSWORD_BYTES,
+    MAX_USERNAME_LENGTH,
+    SESSION_TTL_SECONDS,
+    AuthBackendError,
+    InvalidCredentialFormat,
+    UserAuth,
+    UsernameTaken,
+    connect_to_database,
+    generate_session_token,
+)
+
+PASSWORD = "correct horse battery staple"
+
+
+class FakeClock:
+    """Injectable clock, so expiry and lockout are tested without sleeping."""
+
+    def __init__(self, start=1_000.0):
+        self.now = start
+
+    def __call__(self):
+        return self.now
+
+    def advance(self, seconds):
+        self.now += seconds
+
+
+@pytest.fixture
+def clock():
+    return FakeClock()
+
+
+@pytest.fixture
+def auth(clock):
+    with UserAuth(connect_to_database(), now=clock) as instance:
+        instance.register_user("alice", PASSWORD)
+        yield instance
+
+
+class TestBasicAuthentication:
+    def test_valid_credentials_issue_a_token(self, auth):
+        assert auth.login("alice", PASSWORD) is not None
+
+    def test_wrong_password_returns_none(self, auth):
+        assert auth.login("alice", "not the password") is None
+
+    def test_unknown_user_returns_none(self, auth):
+        assert auth.login("nobody", PASSWORD) is None
+
+    def test_each_login_issues_a_distinct_token(self, auth):
+        tokens = {auth.login("alice", PASSWORD) for _ in range(5)}
+        assert len(tokens) == 5
+
+
+class TestNoSeededCredentials:
+    """[F2] The connection factory must not create working accounts."""
+
+    def test_factory_seeds_no_users(self):
+        connection = connect_to_database()
+        assert connection.execute("SELECT COUNT(*) FROM users").fetchone()[0] == 0
+
+    @pytest.mark.parametrize(
+        "username,password",
+        [("admin", "password123"), ("user1", "secret")],
+    )
+    def test_previously_hardcoded_accounts_are_gone(self, username, password):
+        with UserAuth(connect_to_database()) as fresh:
+            assert fresh.login(username, password) is None
+
+
+class TestTokenGeneration:
+    """[F1] Tokens must come from a CSPRNG."""
+
+    def test_tokens_are_unpredictable_under_a_fixed_seed(self):
+        """
+        The old generator used random.choice, so seeding the global RNG
+        reproduced tokens exactly. secrets draws from the OS entropy pool and
+        ignores that seed.
+        """
+        import random
+
+        random.seed(42)
+        first = generate_session_token()
+        random.seed(42)
+        second = generate_session_token()
+        assert first != second
+
+    def test_tokens_carry_at_least_32_bytes_of_entropy(self):
+        # urlsafe base64 packs 6 bits per character.
+        assert len(generate_session_token()) * 6 >= 32 * 8
+
+
+class TestInputValidation:
+    """[F3] Malformed input is rejected before the database or bcrypt sees it."""
+
+    @pytest.mark.parametrize("password", [None, 12345, b"bytes", []])
+    def test_non_string_password_raises(self, auth, password):
+        with pytest.raises(InvalidCredentialFormat, match="must be strings"):
+            auth.login("alice", password)
+
+    @pytest.mark.parametrize("username", [None, 12345, b"bytes"])
+    def test_non_string_username_raises(self, auth, username):
+        with pytest.raises(InvalidCredentialFormat, match="must be strings"):
+            auth.login(username, PASSWORD)
+
+    @pytest.mark.parametrize("field", ["username", "password"])
+    def test_empty_credentials_raise(self, auth, field):
+        args = {"username": "alice", "password": PASSWORD, field: ""}
+        with pytest.raises(InvalidCredentialFormat, match="non-empty"):
+            auth.login(args["username"], args["password"])
+
+    def test_overlong_username_raises(self, auth):
+        with pytest.raises(InvalidCredentialFormat, match="username exceeds"):
+            auth.login("a" * (MAX_USERNAME_LENGTH + 1), PASSWORD)
+
+    def test_overlong_password_raises_rather_than_truncating(self, auth):
+        """
+        Silent truncation at 72 bytes would make 'a'*72 and 'a'*72+'x'
+        equivalent passwords.
+        """
+        with pytest.raises(InvalidCredentialFormat, match="password exceeds"):
+            auth.login("alice", "a" * (MAX_PASSWORD_BYTES + 1))
+
+    def test_password_length_is_measured_in_bytes_not_characters(self, auth):
+        """A 4-byte emoji must count as 4 against bcrypt's byte ceiling."""
+        emoji_password = "\U0001f512" * (MAX_PASSWORD_BYTES // 4 + 1)
+        assert len(emoji_password) < MAX_PASSWORD_BYTES  # under the char count
+        with pytest.raises(InvalidCredentialFormat, match="password exceeds"):
+            auth.login("alice", emoji_password)
+
+
+class TestUserEnumerationResistance:
+    """[F4][F5] Existing and non-existing accounts must be indistinguishable."""
+
+    def test_overlong_password_fails_identically_for_unknown_users(self, auth):
+        """
+        The old code returned None for an unknown user but raised bcrypt's
+        ValueError for a real one, separating the two by response type.
+        """
+        overlong = "a" * (MAX_PASSWORD_BYTES + 1)
+        with pytest.raises(InvalidCredentialFormat):
+            auth.login("alice", overlong)
+        with pytest.raises(InvalidCredentialFormat):
+            auth.login("nobody", overlong)
+
+    def test_unknown_user_and_wrong_password_cost_the_same(self, auth):
+        """
+        The old ratio was 20,211x because only the known-user path reached
+        bcrypt. Both paths now run one check at the same cost factor; 3x is a
+        loose bound that fails on a skipped hash without flaking on CI jitter.
+        """
+
+        def elapsed(username, password, runs=3):
+            start = time.perf_counter()
+            for _ in range(runs):
+                auth.login(username, password)
+            return (time.perf_counter() - start) / runs
+
+        unknown = elapsed("nobody", "any password")
+        wrong = elapsed("alice", "wrong password")
+        ratio = max(unknown, wrong) / min(unknown, wrong)
+        assert ratio < 3, f"timing差 {ratio:.1f}x suggests one path skips bcrypt"
+
+
+class TestRateLimiting:
+    """[F8] Repeated failures lock the account for a bounded window."""
+
+    def test_lockout_engages_after_the_configured_attempts(self, auth):
+        for _ in range(MAX_FAILED_ATTEMPTS):
+            assert auth.login("alice", "wrong") is None
+        # Correct credentials are now refused too.
+        assert auth.login("alice", PASSWORD) is None
+
+    def test_lockout_expires_after_the_window(self, auth, clock):
+        for _ in range(MAX_FAILED_ATTEMPTS):
+            auth.login("alice", "wrong")
+        assert auth.login("alice", PASSWORD) is None
+
+        clock.advance(LOCKOUT_WINDOW_SECONDS + 1)
+        assert auth.login("alice", PASSWORD) is not None
+
+    def test_successful_login_clears_the_failure_count(self, auth):
+        for _ in range(MAX_FAILED_ATTEMPTS - 1):
+            auth.login("alice", "wrong")
+        assert auth.login("alice", PASSWORD) is not None
+
+        # Counter reset: a full fresh run of failures is needed to lock out.
+        for _ in range(MAX_FAILED_ATTEMPTS - 1):
+            assert auth.login("alice", "wrong") is None
+        assert auth.login("alice", PASSWORD) is not None
+
+
+class TestSessionManagement:
+    """[F7] Tokens resolve to a session, expire, and can be revoked."""
+
+    def test_issued_token_validates(self, auth):
+        token = auth.login("alice", PASSWORD)
+        session = auth.validate_session(token)
+        assert session is not None
+        assert session.username == "alice"
+
+    def test_unknown_token_does_not_validate(self, auth):
+        assert auth.validate_session("not a real token") is None
+
+    @pytest.mark.parametrize("token", [None, "", 12345])
+    def test_malformed_token_does_not_validate(self, auth, token):
+        assert auth.validate_session(token) is None
+
+    def test_session_expires_after_its_ttl(self, auth, clock):
+        token = auth.login("alice", PASSWORD)
+        clock.advance(SESSION_TTL_SECONDS - 1)
+        assert auth.validate_session(token) is not None
+
+        clock.advance(2)
+        assert auth.validate_session(token) is None
+
+    def test_logout_revokes_one_session(self, auth):
+        first = auth.login("alice", PASSWORD)
+        second = auth.login("alice", PASSWORD)
+
+        assert auth.logout(first) is True
+        assert auth.validate_session(first) is None
+        assert auth.validate_session(second) is not None
+
+    def test_logout_is_idempotent(self, auth):
+        token = auth.login("alice", PASSWORD)
+        assert auth.logout(token) is True
+        assert auth.logout(token) is False
+
+    def test_revoke_all_clears_every_session_for_a_user(self, auth):
+        tokens = [auth.login("alice", PASSWORD) for _ in range(3)]
+        assert auth.revoke_all_sessions("alice") == 3
+        assert all(auth.validate_session(t) is None for t in tokens)
+
+    def test_raw_tokens_are_not_kept_in_the_session_store(self, auth):
+        """A dump of the store must not yield usable tokens."""
+        token = auth.login("alice", PASSWORD)
+        assert token not in auth._sessions
+        assert all(token != s.username for s in auth._sessions.values())
+
+
+class TestRegistration:
+    def test_duplicate_username_is_rejected(self, auth):
+        with pytest.raises(UsernameTaken):
+            auth.register_user("alice", "another password")
+
+    def test_registration_validates_input(self, auth):
+        with pytest.raises(InvalidCredentialFormat):
+            auth.register_user("bob", None)
+
+    def test_password_is_not_recoverable_from_storage(self, auth):
+        """[F-hash] Stored material must not contain the password."""
+        stored = auth._db.execute(
+            "SELECT password_hash FROM users WHERE username = ?", ("alice",)
+        ).fetchone()[0]
+        assert PASSWORD.encode("utf-8") not in stored
+        assert stored.startswith(b"$2b$")  # bcrypt, not a fast unsalted digest
+
+    def test_same_password_hashes_differently_per_user(self, auth):
+        """Per-password salt: identical passwords must not share a hash."""
+        auth.register_user("bob", PASSWORD)
+        hashes = {
+            row[0]
+            for row in auth._db.execute("SELECT password_hash FROM users").fetchall()
+        }
+        assert len(hashes) == 2
+
+
+class TestDependencyInjection:
+    """[F6] The connection is a parameter, not a hardcoded call."""
+
+    def test_injected_connection_is_used(self):
+        connection = connect_to_database()
+        with UserAuth(connection) as instance:
+            instance.register_user("carol", PASSWORD)
+        # Registration landed in the caller's connection, and closing the
+        # instance left it open because the instance did not own it.
+        assert connection.execute("SELECT COUNT(*) FROM users").fetchone()[0] == 1
+
+    def test_owned_connection_is_closed_on_exit(self):
+        with UserAuth() as instance:
+            owned = instance._db
+        with pytest.raises(Exception):
+            owned.execute("SELECT 1")
+
+    def test_backend_errors_are_wrapped_without_detail(self):
+        instance = UserAuth()
+        instance._db.close()  # simulate a dropped connection
+        with pytest.raises(AuthBackendError, match="credential store unavailable"):
+            instance.login("alice", PASSWORD)

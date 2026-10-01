@@ -1,0 +1,115 @@
+2026-09-10 22:26:01.172 [info] semantic_tokens_range file:///voc/work/exercises/lesson-2-patterns-and-pitfalls-in-ai-generated-code/concept1-context-gap-pattern/starter/log_formatter.py 0:0-42:46
+2026-09-10 22:26:01.185 [info] semantic_tokens_full file:///voc/work/exercises/lesson-2-patterns-and-pitfalls-in-ai-generated-code/concept1-context-gap-pattern/starter/log_formatter.py 
+2026-09-10 22:26:01.699 [info] [Debug - 10:26:01 PM] multiple definitions found for name "level" of type 'statement' (13:38):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:26:01.702 [info] [Debug - 10:26:01 PM] multiple definitions found for name "upper" of type 'statement' (13:44):
+ <Name full_name='builtins.str.upper', description='def upper'>
+<Name full_name='builtins.str.upper', description='def upper'>
+2026-09-10 22:26:01.704 [info] [Debug - 10:26:01 PM] multiple definitions found for name "formatted_entry" of type 'statement' (20:22):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"{timestamp} [{level.upper()}] {message}"'>
+2026-09-10 22:26:01.704 [info] [Debug - 10:26:01 PM] multiple definitions found for name "level" of type 'statement' (23:23):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:26:01.704 [info] [Debug - 10:26:01 PM] multiple definitions found for name "level" of type 'statement' (26:26):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:26:01.704 [info] [Debug - 10:26:01 PM] multiple definitions found for name "formatted_entry" of type 'statement' (28:11):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"{timestamp} [{level.upper()}] {message}"'>
+2026-09-10 22:26:01.998 [info] [Debug - 10:26:01 PM] no definitions found for name "strftime" of type 'statement' (12:31)
+2026-09-10 22:26:02.000 [info] [Debug - 10:26:02 PM] multiple definitions found for name "level" of type 'statement' (13:38):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:26:02.004 [info] [Debug - 10:26:02 PM] multiple definitions found for name "upper" of type 'statement' (13:44):
+ <Name full_name='builtins.str.upper', description='def upper'>
+<Name full_name='builtins.str.upper', description='def upper'>
+2026-09-10 22:26:02.004 [info] [Debug - 10:26:02 PM] multiple definitions found for name "formatted_entry" of type 'statement' (20:22):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"{timestamp} [{level.upper()}] {message}"'>
+2026-09-10 22:26:02.004 [info] [Debug - 10:26:02 PM] multiple definitions found for name "level" of type 'statement' (23:23):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:26:02.004 [info] [Debug - 10:26:02 PM] multiple definitions found for name "level" of type 'statement' (26:26):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:26:02.004 [info] [Debug - 10:26:02 PM] multiple definitions found for name "formatted_entry" of type 'statement' (28:11):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"{timestamp} [{level.upper()}] {message}"'>
+2026-09-10 22:46:43.990 [info] semantic_tokens_full file:///voc/work/exercises/lesson-2-patterns-and-pitfalls-in-ai-generated-code/concept1-context-gap-pattern/starter/original_log_formatter.py 
+2026-09-10 22:46:44.005 [info] [Debug - 10:46:44 PM] multiple definitions found for name "level" of type 'statement' (14:26):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:46:44.006 [info] [Debug - 10:46:44 PM] multiple definitions found for name "upper" of type 'statement' (14:32):
+ <Name full_name='builtins.str.upper', description='def upper'>
+<Name full_name='builtins.str.upper', description='def upper'>
+2026-09-10 22:46:44.008 [info] [Debug - 10:46:44 PM] multiple definitions found for name "formatted_entry" of type 'statement' (21:22):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"[{level.upper()}] {message}"'>
+2026-09-10 22:46:44.008 [info] [Debug - 10:46:44 PM] multiple definitions found for name "level" of type 'statement' (24:23):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:46:44.009 [info] [Debug - 10:46:44 PM] multiple definitions found for name "level" of type 'statement' (27:26):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:46:44.009 [info] [Debug - 10:46:44 PM] multiple definitions found for name "formatted_entry" of type 'statement' (29:11):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"[{level.upper()}] {message}"'>
+2026-09-10 22:46:46.554 [info] semantic_tokens_full file:///voc/work/exercises/lesson-2-patterns-and-pitfalls-in-ai-generated-code/concept1-context-gap-pattern/starter/original_log_formatter.py 
+2026-09-10 22:46:46.569 [info] [Debug - 10:46:46 PM] multiple definitions found for name "level" of type 'statement' (14:26):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:46:46.571 [info] [Debug - 10:46:46 PM] multiple definitions found for name "upper" of type 'statement' (14:32):
+ <Name full_name='builtins.str.upper', description='def upper'>
+<Name full_name='builtins.str.upper', description='def upper'>
+2026-09-10 22:46:46.573 [info] [Debug - 10:46:46 PM] multiple definitions found for name "formatted_entry" of type 'statement' (21:22):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"[{level.upper()}] {message}"'>
+2026-09-10 22:46:46.573 [info] [Debug - 10:46:46 PM] multiple definitions found for name "level" of type 'statement' (24:23):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:46:46.573 [info] [Debug - 10:46:46 PM] multiple definitions found for name "level" of type 'statement' (27:26):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:46:46.573 [info] [Debug - 10:46:46 PM] multiple definitions found for name "formatted_entry" of type 'statement' (29:11):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"[{level.upper()}] {message}"'>
+2026-09-10 22:46:46.679 [info] semantic_tokens_full file:///voc/work/exercises/lesson-2-patterns-and-pitfalls-in-ai-generated-code/concept1-context-gap-pattern/starter/log_formatter.py 
+2026-09-10 22:46:46.701 [info] [Debug - 10:46:46 PM] multiple definitions found for name "level" of type 'statement' (13:38):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:46:46.703 [info] [Debug - 10:46:46 PM] multiple definitions found for name "upper" of type 'statement' (13:44):
+ <Name full_name='builtins.str.upper', description='def upper'>
+<Name full_name='builtins.str.upper', description='def upper'>
+2026-09-10 22:46:46.705 [info] [Debug - 10:46:46 PM] multiple definitions found for name "formatted_entry" of type 'statement' (20:22):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"{timestamp} [{level.upper()}] {message}"'>
+2026-09-10 22:46:46.705 [info] [Debug - 10:46:46 PM] multiple definitions found for name "level" of type 'statement' (23:23):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:46:46.705 [info] [Debug - 10:46:46 PM] multiple definitions found for name "level" of type 'statement' (26:26):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:46:46.705 [info] [Debug - 10:46:46 PM] multiple definitions found for name "formatted_entry" of type 'statement' (28:11):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"{timestamp} [{level.upper()}] {message}"'>
+2026-09-10 22:53:35.501 [info] semantic_tokens_full file:///voc/work/exercises/lesson-2-patterns-and-pitfalls-in-ai-generated-code/concept1-context-gap-pattern/starter/original_log_formatter.py 
+2026-09-10 22:53:35.522 [info] [Debug - 10:53:35 PM] multiple definitions found for name "level" of type 'statement' (14:26):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:53:35.524 [info] [Debug - 10:53:35 PM] multiple definitions found for name "upper" of type 'statement' (14:32):
+ <Name full_name='builtins.str.upper', description='def upper'>
+<Name full_name='builtins.str.upper', description='def upper'>
+2026-09-10 22:53:35.526 [info] [Debug - 10:53:35 PM] multiple definitions found for name "formatted_entry" of type 'statement' (21:22):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"[{level.upper()}] {message}"'>
+2026-09-10 22:53:35.526 [info] [Debug - 10:53:35 PM] multiple definitions found for name "level" of type 'statement' (24:23):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:53:35.526 [info] [Debug - 10:53:35 PM] multiple definitions found for name "level" of type 'statement' (27:26):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.level', description="level = 'INFO'">
+<Name name='level', description='param level: str'>
+2026-09-10 22:53:35.526 [info] [Debug - 10:53:35 PM] multiple definitions found for name "formatted_entry" of type 'statement' (29:11):
+ <Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry += f" (User: {user_id})"'>
+<Name full_name='exercises.lesson-2-patterns-and-pitfalls-in-ai-generated-code.concept1-context-gap-pattern.starter.original_log_formatter.format_log_entry.formatted_entry', description='formatted_entry = f"[{level.upper()}] {message}"'>

@@ -1,0 +1,124 @@
+# Concept 1: Data Processing Review
+
+## Exercise Overview
+
+Review a data processing function that demonstrates common code quality issues including magic numbers, poor naming conventions, and lack of error handling.
+
+## Learning Objectives
+
+- Identify structural and organizational issues
+- Recognize poor naming conventions
+- Spot missing error handling
+- Understand the importance of avoiding magic numbers
+
+## Instructions
+
+### Step 1: Run Tests to See the Issues
+```bash
+cd concept1-data-processing-review/starter
+pytest test_data_processor.py -v
+```
+
+**Expected Output:**
+- Basic functionality tests pass
+- Error handling tests FAIL (demonstrating missing error handling!)
+- Shows magic numbers and poor naming issues
+
+### Step 2: Review the Code
+1. **Open** `starter/data_processor.py` and review the function
+2. **Apply** the engineering code review framework:
+   - Structure & Organization
+   - Naming & Clarity
+   - Error Handling
+   - Testability
+3. **Document** :
+
+   **Structure & Organization**
+   - Tests assert the bug rather than the intent: `pytest.raises(...)` at `:55` and `:135` locks in the crash while the real expectations sit commented out at `:57-59` and `:137-139` — fixing the source makes these tests fail.
+   - `TestDataProcessorConstants` re-covers the multiplier and cap already asserted in `TestDataProcessorBasic` (`:23`, `:25`); it groups by commentary, not behavior.
+   - No fixtures or `parametrize` — the same `{'id': 1, 'status': 'active', 'value': N}` dict is retyped six times. No `conftest.py`, so the bare import at `:4` resolves only under pytest's rootdir insertion.
+
+   **Naming & Clarity**
+   - Poor naming convention (use of `temp` in `data_processor.py:23`, reassigned as both the product and the capped result).
+   - Test names describe the lesson, not the assertion: `test_multiplier_constant_makes_tests_hard` (`:77`), `test_max_value_constant_makes_capping_unclear` (`:86`). A CI failure on these names says nothing about what broke.
+   - `test_missing_required_fields_handled_gracefully` (`:46`) promises graceful handling but asserts a `KeyError` — the name and the body contradict each other.
+   - Docstrings claim "This test fails" (`:47`, `:62`, `:68`, `:125`), yet all 12 tests pass.
+
+   **Error Handling**
+   - `pytest.raises(KeyError)` (`:55`) never checks *which* key is missing — absent `'value'` and absent `'status'` satisfy it identically. Add `match=`.
+   - `pytest.raises((KeyError, TypeError))` (`:135`) accepts either exception, and `mixed_data` contains triggers for both, so the test passes no matter which fires first. It cannot detect a regression.
+   - Uncovered failure modes: `value` as a string (raises `TypeError` from inside the arithmetic), missing `'id'`, `status='Active'` (silently filtered out), non-dict items, generator input.
+
+   **Testability**
+   - Magic numbers are copied into the tests: `1.2` (`:83`, `:98`, `:122`), `100` (`:92`, `:98`, `:102`), `60.0` (`:23`), `-12.0` (`:122`). Changing the multiplier means editing six sites — import the constants instead.
+   - `:94-102` passes for the wrong reason: `100 / 1.2 * 1.2 == 100.00000000000001`, which exceeds the cap and is clamped to `100`. The cap masks float residue; remove it and the test fails.
+   - Float `==` with no `pytest.approx` (`:23`, `:84`, `:114`, `:122`) survives only because `50 * 1.2` and `-10 * 1.2` are exactly representable in binary.
+   - Nothing pins the filter to exact-string matching — refactoring to `'active' in item['status']` keeps every test green while wrongly admitting `'inactive'`.
+
+   **Assessment:** Poor / Modify. The suite certifies the bug instead of specifying the behavior, and it contradicts Step 1's promise of failing error-handling tests — all 12 currently pass.
+
+### Step 3: Run the Solution Tests
+```bash
+cd ../solution
+pytest test_data_processor.py -v
+```
+
+**Expected Output:**
+- All tests pass showing fixes work
+- Error handling now works gracefully
+- Notice improved testability with constants
+
+### Step 4: Compare and Learn
+4. **Compare** your analysis with the improved code
+
+## Review Template
+
+### Issues Found
+
+Findings below cover `starter/data_processor.py`; line refs are that file.
+
+**Structure & Organization:**
+- [x] Issue 1: One function carries four responsibilities — input handling, filtering by status, the arithmetic transform, and output shaping (`:19-27`). There is no seam at which any single rule can be exercised or reused on its own.
+- [x] Issue 2: The business rules live inside a loop body three levels deep (`:22-26`), and the cap is an inline reassignment (`:24-25`) rather than a named operation. The module also has no docstring and no stated contract for the input keys or return shape.
+
+**Naming & Clarity:**
+- [x] Issue 1: `temp` (`:23`) holds the multiplied product and then the capped result — one binding with two meanings, and the name describes neither.
+- [x] Issue 2: `process_data(data)` names neither the filtering nor the capping it performs, and `data` names nothing about the expected element shape. A caller cannot learn that `'status'`, `'value'`, and `'id'` are all required without reading the body.
+
+**Error Handling:**
+- [x] Issue 1: No input validation. Verified against the starter: `None` → `TypeError: 'NoneType' object is not iterable`, `"not a list"` → `TypeError: string indices must be integers`, `42` → `TypeError: 'int' object is not iterable`. Each message points at the loop internals, not at the caller's mistake.
+- [x] Issue 2: Every key access is unguarded (`:22`, `:23`, `:26`), so one malformed item aborts the whole batch. Verified: a list of three valid records followed by one missing `'value'` raises `KeyError: 'value'` and discards all three results. There is no per-item isolation and no way for the caller to learn which item failed.
+
+**Testability:**
+- [x] Issue 1: `1.2` (`:23`) and `100` (`:24-25`) are unnamed and unreachable from tests, so every test must restate the same literals — changing a rule means editing the source and each test that hardcoded it.
+- [x] Issue 2: The all-or-nothing failure mode means bad-data behavior can only be asserted as "raises", never as "skipped the bad item and continued", because no partial result is ever observable.
+
+### Specific Recommendations
+
+1. **Magic Numbers:** Promote both to module-level constants — `GROWTH_MULTIPLIER = 1.2` and `MAX_PROCESSED_VALUE = 100` — and import them in the tests so expectations derive from the rule instead of duplicating it. If either value varies by caller, accept it as a keyword argument defaulting to the constant.
+2. **Variable Naming:** Rename `temp` to `processed_value`, and use a separate binding for the capped result rather than reassigning. Rename the function to state its behavior (`process_active_items`) and the parameter to name the domain (`items`). Add a docstring listing the required keys and the returned shape.
+3. **Error Handling:** Validate the argument up front and raise `TypeError` for a non-list — that is the convention for a wrong-type argument and what `test_data_processor.py:64` expects. (Note: `solution/data_processor.py:27` raises `ValueError` instead, and its test was adjusted to match.) Then isolate each item so one bad record is skipped rather than aborting the batch, checking required keys explicitly and keeping the `except` narrow enough that a bad `value` type is not silently swallowed. Report skips via `logging.warning` so callers can route or suppress them.
+4. **Function Design:** Decompose into a predicate (`is_active`), a validator (`has_required_fields`), and a pure transform (`scale_and_cap`), leaving `process_data` as a thin composition of the three. Each piece then tests directly, the cap rule gains a name, and the top-level function reads as the pipeline it describes. Consider returning the skipped items or a skip count alongside the results so partial failure is visible to the caller.
+
+### Overall Assessment
+
+- **Quality Rating:** Poor / Fair / Good / Excellent
+- **Recommendation:** Accept / Modify / Reject
+- **Reasoning:** [Your explanation]
+
+## Key Learning Points
+
+- Magic numbers make code unmaintainable
+- Poor variable names reduce code readability
+- Missing error handling leads to runtime failures
+- Functions should have single, clear responsibilities
+
+## Common Issues to Look For
+
+1. **Magic numbers** (1.2, 100) without explanation
+2. **Generic variable names** ('temp', 'data')
+3. **No input validation** for missing keys
+4. **Mixed responsibilities** in single function
+5. **Hard-coded values** scattered throughout
+
+After completing your review, check the solution to see the improved version with proper constants, descriptive names, comprehensive error handling, and separated concerns.

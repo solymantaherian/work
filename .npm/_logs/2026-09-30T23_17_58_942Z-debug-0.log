@@ -1,0 +1,118 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v22.4.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/voc/work/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install @anthropic-ai/claude-code@2.1.286
+7 verbose argv "install" "--global" "@anthropic-ai/claude-code@2.1.286"
+8 verbose logfile logs-max:10 dir:/voc/work/.npm/_logs/2026-09-30T23_17_58_942Z-
+9 verbose logfile /voc/work/.npm/_logs/2026-09-30T23_17_58_942Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile start cleaning logs, removing 1 files
+12 silly idealTree buildDeps
+13 silly fetch manifest @anthropic-ai/claude-code@2.1.286
+14 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code cache-miss
+15 silly logfile done cleaning log files
+16 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai%2fclaude-code 38ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code set size:1482778 disposed:false
+18 silly placeDep ROOT @anthropic-ai/claude-code@2.1.286 OK for:  want: 2.1.286
+19 silly fetch manifest @anthropic-ai/claude-code-linux-x64@2.1.286
+20 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64 cache-miss
+21 silly fetch manifest @anthropic-ai/claude-code-win32-x64@2.1.286
+22 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-x64 cache-miss
+23 silly fetch manifest @anthropic-ai/claude-code-darwin-x64@2.1.286
+24 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-x64 cache-miss
+25 silly fetch manifest @anthropic-ai/claude-code-linux-arm64@2.1.286
+26 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64 cache-miss
+27 silly fetch manifest @anthropic-ai/claude-code-win32-arm64@2.1.286
+28 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-arm64 cache-miss
+29 silly fetch manifest @anthropic-ai/claude-code-darwin-arm64@2.1.286
+30 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-arm64 cache-miss
+31 silly fetch manifest @anthropic-ai/claude-code-linux-x64-musl@2.1.286
+32 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64-musl cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/npm 130ms
+34 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-x64 132ms (cache revalidated)
+35 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-x64 set size:340836 disposed:false
+36 silly fetch manifest @anthropic-ai/claude-code-linux-arm64-musl@2.1.286
+37 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64-musl cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-arm64 155ms (cache revalidated)
+39 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-arm64 set size:341249 disposed:false
+40 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64 160ms (cache revalidated)
+41 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64 set size:350419 disposed:false
+42 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-x64 172ms (cache revalidated)
+43 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-win32-x64 set size:345091 disposed:false
+44 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64 194ms (cache revalidated)
+45 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64 set size:347662 disposed:false
+46 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64-musl 190ms (cache revalidated)
+47 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-x64-musl set size:353709 disposed:false
+48 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-arm64 197ms (cache revalidated)
+49 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-darwin-arm64 set size:349211 disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64-musl 103ms (cache revalidated)
+51 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fclaude-code-linux-arm64-musl set size:351656 disposed:false
+52 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-darwin-arm64@2.1.286 OK for: @anthropic-ai/claude-code@2.1.286 want: 2.1.286
+53 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-darwin-x64@2.1.286 OK for: @anthropic-ai/claude-code@2.1.286 want: 2.1.286
+54 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-linux-arm64@2.1.286 OK for: @anthropic-ai/claude-code@2.1.286 want: 2.1.286
+55 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-linux-arm64-musl@2.1.286 OK for: @anthropic-ai/claude-code@2.1.286 want: 2.1.286
+56 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-linux-x64@2.1.286 OK for: @anthropic-ai/claude-code@2.1.286 want: 2.1.286
+57 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-linux-x64-musl@2.1.286 OK for: @anthropic-ai/claude-code@2.1.286 want: 2.1.286
+58 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-win32-arm64@2.1.286 OK for: @anthropic-ai/claude-code@2.1.286 want: 2.1.286
+59 silly placeDep node_modules/@anthropic-ai/claude-code @anthropic-ai/claude-code-win32-x64@2.1.286 OK for: @anthropic-ai/claude-code@2.1.286 want: 2.1.286
+60 silly reify mark retired [
+60 silly reify   '/usr/local/lib/node_modules/@anthropic-ai/claude-code',
+60 silly reify   '/usr/local/bin/claude'
+60 silly reify ]
+61 silly reify moves {
+61 silly reify   '/usr/local/lib/node_modules/@anthropic-ai/claude-code': '/usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah',
+61 silly reify   '/usr/local/bin/claude': '/usr/local/bin/.claude-X3ObDFPy'
+61 silly reify }
+62 verbose stack Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/@anthropic-ai/claude-code' -> '/usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah'
+62 verbose stack     at async Object.rename (node:internal/fs/promises:784:10)
+62 verbose stack     at async moveFile (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+62 verbose stack     at async Promise.allSettled (index 0)
+62 verbose stack     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+62 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+62 verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+62 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+62 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+63 error code EACCES
+64 error syscall rename
+65 error path /usr/local/lib/node_modules/@anthropic-ai/claude-code
+66 error dest /usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah
+67 error errno -13
+68 error Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/@anthropic-ai/claude-code' -> '/usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah'
+68 error     at async Object.rename (node:internal/fs/promises:784:10)
+68 error     at async moveFile (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+68 error     at async Promise.allSettled (index 0)
+68 error     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+68 error     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+68 error     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+68 error     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+68 error     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5) {
+68 error   errno: -13,
+68 error   code: 'EACCES',
+68 error   syscall: 'rename',
+68 error   path: '/usr/local/lib/node_modules/@anthropic-ai/claude-code',
+68 error   dest: '/usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah'
+68 error }
+69 error
+69 error The operation was rejected by your operating system.
+69 error It is likely you do not have the permissions to access this file as the current user
+69 error
+69 error If you believe this might be a permissions issue, please double-check the
+69 error permissions of the file and its containing directories, or try running
+69 error the command again as root/Administrator.
+70 silly unfinished npm timer reify 1790810279149
+71 silly unfinished npm timer reify:retireShallow 1790810279556
+72 verbose cwd /voc/work
+73 verbose os Linux 5.15.0-1084-aws
+74 verbose node v22.4.1
+75 verbose npm  v10.8.2
+76 notice
+76 notice New major version of npm available! 10.8.2 -> 12.2.0
+76 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+76 notice To update run: npm install -g npm@12.2.0
+76 notice  { force: true, [Symbol(proc-log.meta)]: true }
+77 verbose exit -13
+78 verbose code -13
+79 error A complete log of this run can be found in: /voc/work/.npm/_logs/2026-09-30T23_17_58_942Z-debug-0.log

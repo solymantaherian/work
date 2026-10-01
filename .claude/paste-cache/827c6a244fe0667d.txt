@@ -1,0 +1,52 @@
+<task>
+Implement two ReportMode strategy classes: SummaryByCategory and MonthlyTotalReport
+</task>
+
+<interface_specification>
+from abc import ABC, abstractmethod
+from typing import List, Dict, Any
+
+class ReportMode(ABC):
+    @abstractmethod
+    def process_transactions(self, transactions: List[Dict]) -> Dict[str, Any]:
+        """Process transactions and return report data."""
+        pass
+
+    @abstractmethod
+    def get_mode_name(self) -> str:
+        """Return name of this report mode."""
+        pass
+</interface_specification>
+
+<requirements>
+<strategy_1_summary_by_category>
+- Group transactions by 'category' field
+- Sum amounts for each category
+- Return format: {"mode": "summary", "data": {"Food": 150.50, "Transport": 75.00}, "total": 225.50}
+- Handle empty transaction lists (return zero total)
+</strategy_1_summary_by_category>
+
+<strategy_2_monthly_total>
+- Extract month from 'date' field (format: YYYY-MM-DD, extract YYYY-MM)
+- Group transactions by month
+- Sum amounts for each month
+- Return format: {"mode": "monthly", "data": {"2024-01": 400.00, "2024-02": 350.00}, "total": 750.00}
+- Handle empty lists and invalid dates gracefully
+</strategy_2_monthly_total>
+
+<both_strategies>
+- Follow Strategy pattern (interchangeable implementations)
+- Comprehensive docstrings with examples
+- Type hints throughout
+- Handle edge cases: empty lists, single transaction, duplicate categories/months
+- Use defaultdict or similar for clean grouping logic
+</both_strategies>
+</requirements>
+
+<code_quality>
+- Module docstring explaining Strategy pattern usage
+- Class docstrings with use cases
+- Method docstrings with parameter descriptions
+- Clear variable names (no abbreviations)
+- Each strategy class under 50 lines
+</code_quality>

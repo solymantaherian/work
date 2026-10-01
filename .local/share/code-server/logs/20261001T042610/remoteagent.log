@@ -1,0 +1,10 @@
+2026-10-01 04:26:10.965 [info] 
+
+
+
+
+2026-10-01 04:26:10.973 [info] Extension host agent started.
+2026-10-01 04:26:12.829 [info] [172.16.8.193][96a43f0f][ManagementConnection] New connection established.
+2026-10-01 04:26:13.920 [info] [172.16.8.193][b60023f9][ExtensionHostConnection] New connection established.
+2026-10-01 04:26:13.927 [info] [172.16.8.193][b60023f9][ExtensionHostConnection] <91> Launched Extension Host Process.
+2026-10-01 04:29:46.391 [info] [172.16.8.193][96a43f0f][ManagementConnection] The client has reconnected.

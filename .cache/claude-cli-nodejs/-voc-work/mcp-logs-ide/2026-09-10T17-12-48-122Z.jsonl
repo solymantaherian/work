@@ -1,0 +1,4 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-10T17:14:08.565Z","sessionId":"1a96e2a5-f106-46df-a601-631ef3b8cfa0","cwd":"/voc/work"}
+{"debug":"Successfully connected (transport: ws-ide) in 39ms","timestamp":"2026-09-10T17:14:08.602Z","sessionId":"1a96e2a5-f106-46df-a601-631ef3b8cfa0","cwd":"/voc/work"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"Claude Code code-server MCP\",\"version\":\"1.0.108\"},\"protocolEra\":\"legacy\",\"negotiatedProtocolVersion\":\"2025-06-18\"}","timestamp":"2026-09-10T17:14:08.602Z","sessionId":"1a96e2a5-f106-46df-a601-631ef3b8cfa0","cwd":"/voc/work"}
+{"debug":"Channel notifications skipped: server did not declare claude/channel capability","timestamp":"2026-09-10T17:14:08.647Z","sessionId":"1a96e2a5-f106-46df-a601-631ef3b8cfa0","cwd":"/voc/work"}

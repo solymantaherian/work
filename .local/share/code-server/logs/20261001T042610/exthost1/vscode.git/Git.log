@@ -1,0 +1,108 @@
+2026-10-01 04:26:14.961 [info] [main] Log level: Info
+2026-10-01 04:26:14.961 [info] [main] Validating found git in: "git"
+2026-10-01 04:26:14.961 [info] [main] Using git "2.25.1" from "git"
+2026-10-01 04:26:14.961 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-01 04:26:14.961 [info] > git rev-parse --show-toplevel [5ms]
+2026-10-01 04:26:14.961 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:14.986 [info] > git rev-parse --show-toplevel [14ms]
+2026-10-01 04:26:14.986 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:14.997 [info] > git rev-parse --show-toplevel [10ms]
+2026-10-01 04:26:14.997 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:15.009 [info] > git rev-parse --show-toplevel [10ms]
+2026-10-01 04:26:15.009 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:15.022 [info] > git rev-parse --show-toplevel [10ms]
+2026-10-01 04:26:15.022 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:15.038 [info] > git rev-parse --show-toplevel [14ms]
+2026-10-01 04:26:15.038 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:15.050 [info] > git rev-parse --show-toplevel [10ms]
+2026-10-01 04:26:15.050 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:15.065 [info] > git rev-parse --show-toplevel [11ms]
+2026-10-01 04:26:15.065 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:15.074 [info] > git rev-parse --show-toplevel [8ms]
+2026-10-01 04:26:15.074 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:15.085 [info] > git rev-parse --show-toplevel [8ms]
+2026-10-01 04:26:15.085 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:15.085 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-10-01 04:26:16.326 [info] > git rev-parse --show-toplevel [11ms]
+2026-10-01 04:26:16.326 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:27.611 [info] > git rev-parse --show-toplevel [8ms]
+2026-10-01 04:26:27.613 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:26:41.799 [info] > git rev-parse --show-toplevel [10ms]
+2026-10-01 04:26:41.800 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:27:04.029 [info] > git rev-parse --show-toplevel [8ms]
+2026-10-01 04:27:04.031 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:27:16.124 [info] > git rev-parse --show-toplevel [7ms]
+2026-10-01 04:27:16.124 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:27:35.892 [info] > git rev-parse --show-toplevel [3ms]
+2026-10-01 04:27:35.892 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:27:36.443 [info] > git rev-parse --show-toplevel [4ms]
+2026-10-01 04:27:36.443 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:27:36.547 [info] > git rev-parse --show-toplevel [3ms]
+2026-10-01 04:27:36.547 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:27:37.337 [info] > git rev-parse --show-toplevel [4ms]
+2026-10-01 04:27:37.337 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:27:54.391 [info] > git rev-parse --show-toplevel [10ms]
+2026-10-01 04:27:54.391 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:28:35.879 [info] > git rev-parse --show-toplevel [6ms]
+2026-10-01 04:28:35.881 [info] fatal: not a git repository (or any parent up to mount point /voc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-01 04:44:31.192 [info] > git init [355ms]
+2026-10-01 04:44:31.210 [info] > git rev-parse --show-toplevel [13ms]
+2026-10-01 04:44:31.225 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [13ms]
+2026-10-01 04:44:31.233 [info] [Model][openRepository] Opened repository (path): /voc/work
+2026-10-01 04:44:31.233 [info] [Model][openRepository] Opened repository (real path): /voc/work
+2026-10-01 04:44:31.233 [info] [Model][openRepository] Opened repository (kind): repository
+2026-10-01 04:44:31.239 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-01 04:44:31.254 [info] > git config --get commit.template [11ms]
+2026-10-01 04:44:31.262 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2026-10-01 04:44:31.263 [warning] [Git][getBranch] No such branch: master
+2026-10-01 04:44:31.298 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2026-10-01 04:44:31.712 [info] > git show --textconv :project/starter/requirements.txt [16ms]
+2026-10-01 04:44:31.716 [info] > git ls-files --stage -- project/starter/requirements.txt [18ms]
+2026-10-01 04:44:31.726 [info] > git hash-object -t tree /dev/null [11ms]
+2026-10-01 04:44:31.726 [warning] [GitFileSystemProvider][readFile] File not found - git:/voc/work/project/starter/requirements.txt.git?%7B%22path%22%3A%22%2Fvoc%2Fwork%2Fproject%2Fstarter%2Frequirements.txt%22%2C%22ref%22%3A%22%22%7D
+2026-10-01 04:44:31.734 [info] > git hash-object -t tree /dev/null [16ms]
+2026-10-01 04:44:31.734 [warning] [GitFileSystemProvider][stat] File not found - git:/voc/work/project/starter/requirements.txt.git?%7B%22path%22%3A%22%2Fvoc%2Fwork%2Fproject%2Fstarter%2Frequirements.txt%22%2C%22ref%22%3A%22%22%7D
+2026-10-01 04:44:31.913 [info] > git check-ignore -v -z --stdin [19ms]
+2026-10-01 04:44:32.983 [info] > git status -z -uall [1713ms]
+2026-10-01 04:44:33.012 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-01 04:44:33.023 [info] > git config --get commit.template [12ms]
+2026-10-01 04:44:33.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2026-10-01 04:44:33.028 [warning] [Git][getBranch] No such branch: master
+2026-10-01 04:44:33.028 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-10-01 04:44:33.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2026-10-01 04:44:33.036 [warning] [Git][getBranch] No such branch: master
+2026-10-01 04:44:33.056 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2026-10-01 04:44:33.281 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat -n50 --skip=0 --topo-order --decorate=full --stdin [18ms]
+2026-10-01 04:44:33.281 [info] fatal: bad revision 'refs/heads/master'
+2026-10-01 04:44:33.282 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2026-10-01 04:44:33.490 [info] > git status -z -uall [451ms]
+2026-10-01 04:44:33.930 [info] > git check-ignore -v -z --stdin [16ms]
+2026-10-01 04:44:43.313 [info] > git check-ignore -v -z --stdin [20ms]
+2026-10-01 04:44:49.056 [info] > git check-ignore -v -z --stdin [17ms]
+2026-10-01 04:45:15.280 [info] > git check-ignore -v -z --stdin [54ms]

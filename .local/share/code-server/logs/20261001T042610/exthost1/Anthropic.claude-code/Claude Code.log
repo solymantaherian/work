@@ -1,0 +1,28 @@
+2026-10-01 04:26:16.731 [info] Claude code extension is now active?
+2026-10-01 04:26:16.731 [info] MCP Server running on port 45505 (localhost only)
+2026-10-01 04:29:10.605 [info] New WS connection from: /
+2026-10-01 04:29:10.633 [info] MCP server connected to transport
+2026-10-01 04:29:10.633 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-10-01 04:29:10.633 [info] Registered diagnostic client: client_0
+2026-10-01 04:29:27.894 [info] Closing all diff tabs in the editor...
+2026-10-01 04:29:27.895 [info] Closed 0 diff tabs.
+2026-10-01 04:29:57.194 [info] WS client disconnected
+2026-10-01 04:29:57.195 [info] [DiagnosticStreamManager] Unregistered client client_0. Total clients: 0
+2026-10-01 04:29:57.195 [info] [DiagnosticStreamManager] Stopped streaming diagnostics
+2026-10-01 04:29:57.195 [info] Unregistered diagnostic client: client_0
+2026-10-01 04:30:20.554 [info] New WS connection from: /
+2026-10-01 04:30:20.554 [info] MCP server connected to transport
+2026-10-01 04:30:20.554 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-10-01 04:30:20.554 [info] Registered diagnostic client: client_1
+2026-10-01 04:30:48.600 [info] Closing all diff tabs in the editor...
+2026-10-01 04:30:48.600 [info] Closed 0 diff tabs.
+2026-10-01 04:32:07.326 [info] Closing all diff tabs in the editor...
+2026-10-01 04:32:07.327 [info] Closed 0 diff tabs.
+2026-10-01 04:41:47.248 [info] Closing all diff tabs in the editor...
+2026-10-01 04:41:47.250 [info] Closed 0 diff tabs.
+2026-10-01 04:42:47.400 [info] Closing all diff tabs in the editor...
+2026-10-01 04:42:47.400 [info] Closed 0 diff tabs.
+2026-10-01 04:43:39.852 [info] WS client disconnected
+2026-10-01 04:43:39.852 [info] [DiagnosticStreamManager] Unregistered client client_1. Total clients: 0
+2026-10-01 04:43:39.852 [info] [DiagnosticStreamManager] Stopped streaming diagnostics
+2026-10-01 04:43:39.852 [info] Unregistered diagnostic client: client_1

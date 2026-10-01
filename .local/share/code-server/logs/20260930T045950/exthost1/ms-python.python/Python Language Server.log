@@ -1,0 +1,143 @@
+2026-09-30 05:03:03.240 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 0:0-51:0
+2026-09-30 05:03:03.253 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 
+2026-09-30 05:03:10.049 [info] ERROR:pygls.protocol.json_rpc:Exception occurred for message "5": _pickle.UnpicklingError: unpickling stack underflow
+NoneType: None
+
+2026-09-30 05:03:10.051 [info] [Error - 5:03:10 AM] Request textDocument/semanticTokens/full failed.
+2026-09-30 05:03:10.054 [info]   Message: _pickle.UnpicklingError: unpickling stack underflow
+  Code: -32603 
+[object Object]
+2026-09-30 05:03:21.091 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 0:0-57:27
+2026-09-30 05:03:32.583 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 0:0-63:0
+2026-09-30 05:03:40.683 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 0:0-75:60
+2026-09-30 05:03:47.396 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 0:0-51:0
+2026-09-30 05:03:58.179 [info] [Debug - 5:03:58 AM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 05:12:34.553 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 15:0-91:86
+2026-09-30 05:12:36.841 [info] [Debug - 5:12:36 AM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 05:12:37.613 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 16:0-93:73
+2026-09-30 05:12:38.125 [info] [Debug - 5:12:38 AM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 05:12:38.989 [info] [Debug - 5:12:38 AM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 05:12:40.057 [info] [Debug - 5:12:40 AM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 05:12:40.059 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 21:0-98:0
+2026-09-30 05:12:40.288 [info] [Debug - 5:12:40 AM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 05:12:41.437 [info] [Debug - 5:12:41 AM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 05:12:41.569 [info] [Debug - 5:12:41 AM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 05:12:43.262 [info] [Debug - 5:12:43 AM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 05:12:44.449 [info] [Debug - 5:12:44 AM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 05:14:16.242 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/solution/main.py 
+2026-09-30 05:14:16.248 [info] [Debug - 5:14:16 AM] no matching semantic token for "__name__" of type 'statement' (13:3)
+2026-09-30 05:20:17.103 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 
+2026-09-30 05:20:17.529 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 21:0-98:0
+2026-09-30 05:20:19.480 [info] [Debug - 5:20:19 AM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 05:20:19.481 [info] [Debug - 5:20:19 AM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 05:20:20.811 [info] [Debug - 5:20:20 AM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 05:20:20.813 [info] [Debug - 5:20:20 AM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 05:20:22.787 [info] [Debug - 5:20:22 AM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 05:20:22.788 [info] [Debug - 5:20:22 AM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 05:20:22.891 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "23"
+
+2026-09-30 05:20:24.036 [info] [Debug - 5:20:24 AM] no definitions found for name "lower" of type 'statement' (106:50)
+2026-09-30 05:20:24.037 [info] [Debug - 5:20:24 AM] no definitions found for name "lower" of type 'statement' (107:59)
+2026-09-30 05:20:24.317 [info] [Debug - 5:20:24 AM] no definitions found for name "module" of type 'statement' (143:24)
+2026-09-30 05:20:24.319 [info] [Debug - 5:20:24 AM] no definitions found for name "name" of type 'statement' (143:57)
+2026-09-30 05:20:24.321 [info] [Debug - 5:20:24 AM] no definitions found for name "names" of type 'statement' (143:94)
+2026-09-30 05:20:24.323 [info] [Debug - 5:20:24 AM] no definitions found for name "module" of type 'statement' (145:24)
+2026-09-30 05:20:24.326 [info] [Debug - 5:20:24 AM] no definitions found for name "name" of type 'statement' (145:54)
+2026-09-30 05:20:24.327 [info] [Debug - 5:20:24 AM] no definitions found for name "names" of type 'statement' (145:106)
+2026-09-30 05:20:24.331 [info] [Debug - 5:20:24 AM] multiple definitions found for name "has_protocol" of type 'statement' (148:15):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = False'>
+2026-09-30 05:20:24.331 [info] [Debug - 5:20:24 AM] multiple definitions found for name "has_abc" of type 'statement' (148:31):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = False'>
+2026-09-30 05:20:24.331 [info] [Debug - 5:20:24 AM] no definitions found for name "node" of type 'statement' (162:78)
+2026-09-30 05:20:24.332 [info] [Debug - 5:20:24 AM] no definitions found for name "node" of type 'statement' (171:78)
+2026-09-30 05:20:24.343 [info] [Debug - 5:20:24 AM] no definitions found for name "name" of type 'statement' (177:54)
+2026-09-30 05:20:26.072 [info] [Debug - 5:20:26 AM] no definitions found for name "lower" of type 'statement' (203:50)
+2026-09-30 05:20:26.073 [info] [Debug - 5:20:26 AM] no definitions found for name "lower" of type 'statement' (206:50)
+2026-09-30 05:20:26.076 [info] [Debug - 5:20:26 AM] no definitions found for name "lower" of type 'statement' (206:123)
+2026-09-30 05:20:26.076 [info] [Debug - 5:20:26 AM] no definitions found for name "lower" of type 'statement' (209:50)
+2026-09-30 05:20:26.076 [info] [Debug - 5:20:26 AM] no definitions found for name "lower" of type 'statement' (209:90)
+2026-09-30 05:20:26.076 [info] [Debug - 5:20:26 AM] no definitions found for name "lower" of type 'statement' (212:48)
+2026-09-30 05:20:26.107 [info] [Debug - 5:20:26 AM] multiple definitions found for name "content" of type 'statement' (258:15):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestDesignQuality.all_content.content', description='content[filename] = filepath.read_text()'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestDesignQuality.all_content.content', description='content = {}'>
+2026-09-30 05:20:27.333 [info] [Debug - 5:20:27 AM] no definitions found for name "values" of type 'statement' (262:40)
+2026-09-30 05:20:27.335 [info] [Debug - 5:20:27 AM] no definitions found for name "kw" of type 'statement' (266:51)
+2026-09-30 05:20:28.568 [info] [Debug - 5:20:28 AM] no definitions found for name "values" of type 'statement' (278:40)
+2026-09-30 05:20:28.570 [info] [Debug - 5:20:28 AM] no matching semantic token for "__name__" of type 'statement' (292:3)
+2026-09-30 05:20:28.762 [info] [Debug - 5:20:28 AM] no matching semantic token for "__file__" of type 'statement' (293:17)
+2026-09-30 05:20:51.164 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 
+2026-09-30 05:20:51.828 [info] semantic_tokens_range file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 21:0-98:0
+2026-09-30 05:20:53.193 [info] [Debug - 5:20:53 AM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 05:20:53.224 [info] [Debug - 5:20:53 AM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 05:20:54.517 [info] [Debug - 5:20:54 AM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 05:20:54.574 [info] [Debug - 5:20:54 AM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 05:20:56.425 [info] [Debug - 5:20:56 AM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 05:20:56.426 [info] [Debug - 5:20:56 AM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 05:20:57.615 [info] [Debug - 5:20:57 AM] no definitions found for name "lower" of type 'statement' (106:50)
+2026-09-30 05:20:57.616 [info] [Debug - 5:20:57 AM] no definitions found for name "lower" of type 'statement' (107:59)
+2026-09-30 05:20:57.630 [info] [Debug - 5:20:57 AM] no definitions found for name "module" of type 'statement' (143:24)
+2026-09-30 05:20:57.632 [info] [Debug - 5:20:57 AM] no definitions found for name "name" of type 'statement' (143:57)
+2026-09-30 05:20:57.635 [info] [Debug - 5:20:57 AM] no definitions found for name "names" of type 'statement' (143:94)
+2026-09-30 05:20:57.636 [info] [Debug - 5:20:57 AM] no definitions found for name "module" of type 'statement' (145:24)
+2026-09-30 05:20:57.639 [info] [Debug - 5:20:57 AM] no definitions found for name "name" of type 'statement' (145:54)
+2026-09-30 05:20:57.641 [info] [Debug - 5:20:57 AM] no definitions found for name "names" of type 'statement' (145:106)
+2026-09-30 05:20:57.644 [info] [Debug - 5:20:57 AM] multiple definitions found for name "has_protocol" of type 'statement' (148:15):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = False'>
+2026-09-30 05:20:57.644 [info] [Debug - 5:20:57 AM] multiple definitions found for name "has_abc" of type 'statement' (148:31):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = False'>
+2026-09-30 05:20:57.645 [info] [Debug - 5:20:57 AM] no definitions found for name "node" of type 'statement' (162:78)
+2026-09-30 05:20:57.645 [info] [Debug - 5:20:57 AM] no definitions found for name "node" of type 'statement' (171:78)
+2026-09-30 05:20:57.656 [info] [Debug - 5:20:57 AM] no definitions found for name "name" of type 'statement' (177:54)
+2026-09-30 05:20:59.350 [info] [Debug - 5:20:59 AM] no definitions found for name "lower" of type 'statement' (203:50)
+2026-09-30 05:20:59.351 [info] [Debug - 5:20:59 AM] no definitions found for name "lower" of type 'statement' (206:50)
+2026-09-30 05:20:59.354 [info] [Debug - 5:20:59 AM] no definitions found for name "lower" of type 'statement' (206:123)
+2026-09-30 05:20:59.354 [info] [Debug - 5:20:59 AM] no definitions found for name "lower" of type 'statement' (209:50)
+2026-09-30 05:20:59.354 [info] [Debug - 5:20:59 AM] no definitions found for name "lower" of type 'statement' (209:90)
+2026-09-30 05:20:59.354 [info] [Debug - 5:20:59 AM] no definitions found for name "lower" of type 'statement' (212:48)
+2026-09-30 05:20:59.389 [info] [Debug - 5:20:59 AM] multiple definitions found for name "content" of type 'statement' (258:15):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestDesignQuality.all_content.content', description='content[filename] = filepath.read_text()'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestDesignQuality.all_content.content', description='content = {}'>
+2026-09-30 05:21:00.668 [info] [Debug - 5:21:00 AM] no definitions found for name "values" of type 'statement' (262:40)
+2026-09-30 05:21:00.670 [info] [Debug - 5:21:00 AM] no definitions found for name "kw" of type 'statement' (266:51)
+2026-09-30 05:21:02.483 [info] [Debug - 5:21:02 AM] no definitions found for name "values" of type 'statement' (278:40)
+2026-09-30 05:21:02.486 [info] [Debug - 5:21:02 AM] no matching semantic token for "__name__" of type 'statement' (292:3)
+2026-09-30 05:21:02.490 [info] [Debug - 5:21:02 AM] no matching semantic token for "__file__" of type 'statement' (293:17)
+2026-09-30 05:35:43.305 [info] semantic_tokens_full file:///voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/test_planning_process.py 
+2026-09-30 05:35:46.347 [info] [Debug - 5:35:46 AM] no definitions found for name "lower" of type 'statement' (68:44)
+2026-09-30 05:35:47.717 [info] [Debug - 5:35:47 AM] no definitions found for name "lower" of type 'statement' (79:44)
+2026-09-30 05:35:49.582 [info] [Debug - 5:35:49 AM] no definitions found for name "lower" of type 'statement' (92:44)
+2026-09-30 05:35:50.868 [info] [Debug - 5:35:50 AM] no definitions found for name "lower" of type 'statement' (106:50)
+2026-09-30 05:35:50.869 [info] [Debug - 5:35:50 AM] no definitions found for name "lower" of type 'statement' (107:59)
+2026-09-30 05:35:50.885 [info] [Debug - 5:35:50 AM] no definitions found for name "module" of type 'statement' (143:24)
+2026-09-30 05:35:50.887 [info] [Debug - 5:35:50 AM] no definitions found for name "name" of type 'statement' (143:57)
+2026-09-30 05:35:50.889 [info] [Debug - 5:35:50 AM] no definitions found for name "names" of type 'statement' (143:94)
+2026-09-30 05:35:50.891 [info] [Debug - 5:35:50 AM] no definitions found for name "module" of type 'statement' (145:24)
+2026-09-30 05:35:50.894 [info] [Debug - 5:35:50 AM] no definitions found for name "name" of type 'statement' (145:54)
+2026-09-30 05:35:50.895 [info] [Debug - 5:35:50 AM] no definitions found for name "names" of type 'statement' (145:106)
+2026-09-30 05:35:50.900 [info] [Debug - 5:35:50 AM] multiple definitions found for name "has_protocol" of type 'statement' (148:15):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_protocol', description='has_protocol = False'>
+2026-09-30 05:35:50.900 [info] [Debug - 5:35:50 AM] multiple definitions found for name "has_abc" of type 'statement' (148:31):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = True'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestInterfaceDefinitions.test_uses_interface_pattern.has_abc', description='has_abc = False'>
+2026-09-30 05:35:50.900 [info] [Debug - 5:35:50 AM] no definitions found for name "node" of type 'statement' (162:78)
+2026-09-30 05:35:50.900 [info] [Debug - 5:35:50 AM] no definitions found for name "node" of type 'statement' (171:78)
+2026-09-30 05:35:50.911 [info] [Debug - 5:35:50 AM] no definitions found for name "name" of type 'statement' (177:54)
+2026-09-30 05:35:52.803 [info] [Debug - 5:35:52 AM] no definitions found for name "lower" of type 'statement' (203:50)
+2026-09-30 05:35:52.804 [info] [Debug - 5:35:52 AM] no definitions found for name "lower" of type 'statement' (206:50)
+2026-09-30 05:35:52.807 [info] [Debug - 5:35:52 AM] no definitions found for name "lower" of type 'statement' (206:123)
+2026-09-30 05:35:52.807 [info] [Debug - 5:35:52 AM] no definitions found for name "lower" of type 'statement' (209:50)
+2026-09-30 05:35:52.807 [info] [Debug - 5:35:52 AM] no definitions found for name "lower" of type 'statement' (209:90)
+2026-09-30 05:35:52.807 [info] [Debug - 5:35:52 AM] no definitions found for name "lower" of type 'statement' (212:48)
+2026-09-30 05:35:52.840 [info] [Debug - 5:35:52 AM] multiple definitions found for name "content" of type 'statement' (258:15):
+ <Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestDesignQuality.all_content.content', description='content[filename] = filepath.read_text()'>
+<Name full_name='exercises.lesson-5-collaborate-with-ai-throughout-development.exercises.concept1-ai-planning-collaboration.starter.test_planning_process.TestDesignQuality.all_content.content', description='content = {}'>
+2026-09-30 05:35:54.128 [info] [Debug - 5:35:54 AM] no definitions found for name "values" of type 'statement' (262:40)
+2026-09-30 05:35:54.130 [info] [Debug - 5:35:54 AM] no definitions found for name "kw" of type 'statement' (266:51)
+2026-09-30 05:35:55.968 [info] [Debug - 5:35:55 AM] no definitions found for name "values" of type 'statement' (278:40)
+2026-09-30 05:35:55.970 [info] [Debug - 5:35:55 AM] no matching semantic token for "__name__" of type 'statement' (292:3)
+2026-09-30 05:35:55.975 [info] [Debug - 5:35:55 AM] no matching semantic token for "__file__" of type 'statement' (293:17)

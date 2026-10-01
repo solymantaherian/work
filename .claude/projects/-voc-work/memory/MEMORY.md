@@ -1,0 +1,1 @@
+- [Exercise deliverable placement](exercise-deliverable-placement.md) — lesson-5 starter deliverables stay flat at starter/, not in the expense_tracker/ package

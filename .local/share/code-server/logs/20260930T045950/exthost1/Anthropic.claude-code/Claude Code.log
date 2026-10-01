@@ -1,0 +1,46 @@
+2026-09-30 05:00:03.369 [info] Claude code extension is now active?
+2026-09-30 05:00:03.369 [info] MCP Server running on port 14437 (localhost only)
+2026-09-30 05:20:26.004 [info] Creating new Claude terminal
+2026-09-30 05:20:26.713 [info] Terminal shell integration available
+2026-09-30 05:20:33.245 [info] New WS connection from: /
+2026-09-30 05:20:33.245 [info] MCP server connected to transport
+2026-09-30 05:20:33.250 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-30 05:20:33.250 [info] Registered diagnostic client: client_0
+2026-09-30 05:20:33.746 [info] Logging event: run_claude_command undefined
+2026-09-30 05:20:51.085 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:20:52.153 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:21:15.881 [info] Closing all diff tabs in the editor...
+2026-09-30 05:21:15.881 [info] Closed 0 diff tabs.
+2026-09-30 05:23:27.413 [info] diff from /voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/architecture_plan.md to /voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/architecture_plan.md as ✻ [Claude Code] architecture_plan.md (83f595) ⧉
+2026-09-30 05:23:27.551 [info] leftTempFileProvider.createFile /voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/architecture_plan.md
+2026-09-30 05:23:27.663 [info] Closing all diff tabs in the editor...
+2026-09-30 05:23:27.663 [info] Closed 0 diff tabs.
+2026-09-30 05:23:28.166 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:23:28.199 [info] diff result undefined ✻ [Claude Code] architecture_plan.md (83f595) ⧉ {"$mid":1,"path":"/voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/architecture_plan.md","scheme":"_claude_fs_left"} {"$mid":1,"external":"_claude_fs_right:/voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/architecture_plan.md","path":"/voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/architecture_plan.md","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-30 05:23:28.251 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:23:28.658 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:24:24.179 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:24:24.685 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:24:25.191 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:24:33.793 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:35:41.359 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 05:35:41.397 [info] tab_closed ✻ [Claude Code] architecture_plan.md (83f595) ⧉
+2026-09-30 05:36:00.563 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 05:36:00.641 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:36:05.245 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:37:22.630 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-30 05:37:22.738 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:37:45.905 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:37:48.588 [info] Closing all diff tabs in the editor...
+2026-09-30 05:37:48.588 [info] Closed 0 diff tabs.
+2026-09-30 05:39:15.066 [info] diff from /voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/models.py to /voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/models.py as ✻ [Claude Code] models.py (5a929d) ⧉
+2026-09-30 05:39:15.191 [info] leftTempFileProvider.createFile /voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/models.py
+2026-09-30 05:39:15.321 [info] Closing all diff tabs in the editor...
+2026-09-30 05:39:15.321 [info] Closed 0 diff tabs.
+2026-09-30 05:39:15.540 [info] diff result undefined ✻ [Claude Code] models.py (5a929d) ⧉ {"$mid":1,"path":"/voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/models.py","scheme":"_claude_fs_left"} {"$mid":1,"external":"_claude_fs_right:/voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/models.py","path":"/voc/work/exercises/lesson-5-collaborate-with-ai-throughout-development/exercises/concept1-ai-planning-collaboration/starter/models.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-30 05:41:12.623 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:41:12.643 [info] tab_closed ✻ [Claude Code] models.py (5a929d) ⧉
+2026-09-30 05:42:15.370 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-30 05:42:43.352 [info] Closing all diff tabs in the editor...
+2026-09-30 05:42:43.352 [info] Closed 0 diff tabs.
+2026-09-30 05:45:44.887 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files

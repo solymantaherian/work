@@ -1,0 +1,45 @@
+2026-09-10 20:47:03.404 [info] Claude code extension is now active?
+2026-09-10 20:47:03.404 [info] MCP Server running on port 59780 (localhost only)
+2026-09-10 22:37:35.042 [info] Creating new Claude terminal
+2026-09-10 22:37:35.506 [info] Terminal shell integration available
+2026-09-10 22:38:18.993 [info] Creating new Claude terminal
+2026-09-10 22:38:19.445 [info] Terminal shell integration available
+2026-09-10 22:38:22.805 [info] New WS connection from: /
+2026-09-10 22:38:22.805 [info] MCP server connected to transport
+2026-09-10 22:38:22.805 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-10 22:38:22.805 [info] Registered diagnostic client: client_0
+2026-09-10 22:38:23.306 [info] Logging event: run_claude_command undefined
+2026-09-10 22:38:23.306 [info] Logging event: run_claude_command undefined
+2026-09-10 22:38:35.684 [info] Closing all diff tabs in the editor...
+2026-09-10 22:38:35.684 [info] Closed 0 diff tabs.
+2026-09-10 22:39:17.283 [info] diff from /voc/work/.bashrc to /voc/work/.bashrc as ✻ [Claude Code] .bashrc (5da517) ⧉
+2026-09-10 22:39:17.535 [info] Closing all diff tabs in the editor...
+2026-09-10 22:39:17.535 [info] Closed 0 diff tabs.
+2026-09-10 22:39:17.727 [info] diff result undefined ✻ [Claude Code] .bashrc (5da517) ⧉ {"$mid":1,"external":"file:///voc/work/.bashrc","path":"/voc/work/.bashrc","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/.bashrc","path":"/voc/work/.bashrc","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-10 22:39:23.232 [info] tab_closed ✻ [Claude Code] .bashrc (5da517) ⧉
+2026-09-10 22:39:26.413 [info] diff from /voc/work/.profile to /voc/work/.profile as ✻ [Claude Code] .profile (5033da) ⧉
+2026-09-10 22:39:26.628 [info] Closing all diff tabs in the editor...
+2026-09-10 22:39:26.628 [info] Closed 0 diff tabs.
+2026-09-10 22:39:26.740 [info] diff result undefined ✻ [Claude Code] .profile (5033da) ⧉ {"$mid":1,"external":"file:///voc/work/.profile","path":"/voc/work/.profile","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/.profile","path":"/voc/work/.profile","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-10 22:39:28.544 [info] tab_closed ✻ [Claude Code] .profile (5033da) ⧉
+2026-09-10 22:42:11.043 [info] Closing all diff tabs in the editor...
+2026-09-10 22:42:11.046 [info] Closed 0 diff tabs.
+2026-09-10 22:42:17.504 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-10 22:42:17.587 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-10 22:42:26.584 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-10 22:42:26.687 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-10 22:43:08.382 [info] Closing all diff tabs in the editor...
+2026-09-10 22:43:08.382 [info] Closed 0 diff tabs.
+2026-09-10 22:45:36.866 [info] Closing all diff tabs in the editor...
+2026-09-10 22:45:36.867 [info] Closed 0 diff tabs.
+2026-09-10 22:46:17.042 [info] Closing all diff tabs in the editor...
+2026-09-10 22:46:17.042 [info] Closed 0 diff tabs.
+2026-09-10 22:46:43.829 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-10 22:46:45.024 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-10 22:46:47.385 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-10 22:48:56.955 [info] Closing all diff tabs in the editor...
+2026-09-10 22:48:56.956 [info] Closed 0 diff tabs.
+2026-09-10 22:53:33.151 [info] WS client disconnected
+2026-09-10 22:53:33.153 [info] [DiagnosticStreamManager] Unregistered client client_0. Total clients: 0
+2026-09-10 22:53:33.153 [info] [DiagnosticStreamManager] Stopped streaming diagnostics
+2026-09-10 22:53:33.153 [info] Unregistered diagnostic client: client_0
